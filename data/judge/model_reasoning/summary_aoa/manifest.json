@@ -1,0 +1,320 @@
+{
+  "experiment": "model_reasoning_summary_aoa",
+  "run_id": "c201d4120c8d",
+  "started_at": "2026-10-01T09:23:11+00:00",
+  "prompt_id": "guidelines_de",
+  "prompt_sha256": "0a79a0ea4fc9a5a8f5f4db312423c3fd352cb32b0e87dd920a7d2e6b2dbc8b05",
+  "hyperparams": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "frequency_penalty": 0.5,
+    "presence_penalty": 0.0,
+    "max_tokens": 8192
+  },
+  "models": [
+    {
+      "name": "qwen/qwen3.7-flash-low",
+      "client": "openrouter",
+      "model": "qwen/qwen3.7-flash",
+      "reasoning": {
+        "effort": "low"
+      }
+    },
+    {
+      "name": "qwen/qwen3.7-flash-medium",
+      "client": "openrouter",
+      "model": "qwen/qwen3.7-flash",
+      "reasoning": {
+        "effort": "medium"
+      }
+    },
+    {
+      "name": "qwen/qwen3.8-flash-low",
+      "client": "openrouter",
+      "model": "qwen/qwen3.8-flash",
+      "reasoning": {
+        "effort": "low"
+      }
+    },
+    {
+      "name": "qwen/qwen3.8-flash-medium",
+      "client": "openrouter",
+      "model": "qwen/qwen3.8-flash",
+      "reasoning": {
+        "effort": "medium"
+      }
+    },
+    {
+      "name": "deepseek/deepseek-v4-flash-0731-low",
+      "client": "openrouter",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "reasoning": {
+        "effort": "low"
+      }
+    },
+    {
+      "name": "deepseek/deepseek-v4-flash-0731-medium",
+      "client": "openrouter",
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "reasoning": {
+        "effort": "medium"
+      }
+    },
+    {
+      "name": "deepseek/deepseek-v4.1-flash-low",
+      "client": "openrouter",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "reasoning": {
+        "effort": "low"
+      }
+    },
+    {
+      "name": "deepseek/deepseek-v4.1-flash-medium",
+      "client": "openrouter",
+      "model": "deepseek/deepseek-v4.1-flash",
+      "reasoning": {
+        "effort": "medium"
+      }
+    },
+    {
+      "name": "z-ai/glm-5.3-flash-low",
+      "client": "openrouter",
+      "model": "z-ai/glm-5.3-flash",
+      "reasoning": {
+        "effort": "low"
+      }
+    },
+    {
+      "name": "z-ai/glm-5.3-flash-medium",
+      "client": "openrouter",
+      "model": "z-ai/glm-5.3-flash",
+      "reasoning": {
+        "effort": "medium"
+      }
+    },
+    {
+      "name": "google/gemini-2.5-flash-lite-low",
+      "client": "openrouter",
+      "model": "google/gemini-2.5-flash-lite",
+      "reasoning": {
+        "effort": "low"
+      }
+    },
+    {
+      "name": "google/gemini-2.5-flash-lite-medium",
+      "client": "openrouter",
+      "model": "google/gemini-2.5-flash-lite",
+      "reasoning": {
+        "effort": "medium"
+      }
+    },
+    {
+      "name": "openai/gpt-6-luna-low",
+      "client": "openrouter",
+      "model": "openai/gpt-6-luna",
+      "reasoning": {
+        "effort": "low"
+      }
+    },
+    {
+      "name": "openai/gpt-6-luna-medium",
+      "client": "openrouter",
+      "model": "openai/gpt-6-luna",
+      "reasoning": {
+        "effort": "medium"
+      }
+    },
+    {
+      "name": "mistralai/mistral-small-2603-low",
+      "client": "openrouter",
+      "model": "mistralai/mistral-small-2603",
+      "reasoning": {
+        "effort": "low"
+      }
+    },
+    {
+      "name": "mistralai/mistral-small-2603-medium",
+      "client": "openrouter",
+      "model": "mistralai/mistral-small-2603",
+      "reasoning": {
+        "effort": "medium"
+      }
+    }
+  ],
+  "targets": [
+    "area",
+    "criterion"
+  ],
+  "query_representations": [
+    "llm_summary"
+  ],
+  "n_excerpts": 1425,
+  "max_samples": null,
+  "max_concurrent_models": 3,
+  "n_tasks": 45600,
+  "n_pending": 45600,
+  "finished_at": "2026-10-01T10:16:30+00:00",
+  "wall_time_s": 3199.0,
+  "stats": {
+    "qwen/qwen3.7-flash-low": {
+      "requested": 2850,
+      "succeeded": 2850,
+      "parse_failures": 0,
+      "errors": 0,
+      "completion_tokens": 2552086,
+      "cost": 0.415355746,
+      "truncated": 0,
+      "total_latency_s": 1277675.979206292
+    },
+    "qwen/qwen3.7-flash-medium": {
+      "requested": 2850,
+      "succeeded": 2850,
+      "parse_failures": 0,
+      "errors": 0,
+      "completion_tokens": 2580098,
+      "cost": 0.41731385,
+      "truncated": 0,
+      "total_latency_s": 1288826.423943846
+    },
+    "qwen/qwen3.8-flash-low": {
+      "requested": 2850,
+      "succeeded": 2848,
+      "parse_failures": 0,
+      "errors": 0,
+      "completion_tokens": 1370423,
+      "cost": 0.962456588,
+      "truncated": 2,
+      "total_latency_s": 1208610.1605418604
+    },
+    "qwen/qwen3.8-flash-medium": {
+      "requested": 2850,
+      "succeeded": 2850,
+      "parse_failures": 0,
+      "errors": 0,
+      "completion_tokens": 1350217,
+      "cost": 0.82082076,
+      "truncated": 0,
+      "total_latency_s": 1212755.4577569477
+    },
+    "deepseek/deepseek-v4-flash-0731-low": {
+      "requested": 2850,
+      "succeeded": 2841,
+      "parse_failures": 5,
+      "errors": 0,
+      "completion_tokens": 1334727,
+      "cost": 1.7569409142,
+      "truncated": 9,
+      "total_latency_s": 1712093.2989935274
+    },
+    "deepseek/deepseek-v4-flash-0731-medium": {
+      "requested": 2850,
+      "succeeded": 2844,
+      "parse_failures": 3,
+      "errors": 0,
+      "completion_tokens": 1301921,
+      "cost": 1.7157615102,
+      "truncated": 6,
+      "total_latency_s": 1777899.7446044697
+    },
+    "deepseek/deepseek-v4.1-flash-low": {
+      "requested": 2850,
+      "succeeded": 2850,
+      "parse_failures": 0,
+      "errors": 0,
+      "completion_tokens": 741457,
+      "cost": 0.8989017974,
+      "truncated": 0,
+      "total_latency_s": 1585721.3150437921
+    },
+    "deepseek/deepseek-v4.1-flash-medium": {
+      "requested": 2850,
+      "succeeded": 2850,
+      "parse_failures": 0,
+      "errors": 0,
+      "completion_tokens": 737703,
+      "cost": 0.8492889506,
+      "truncated": 0,
+      "total_latency_s": 1960389.4243687391
+    },
+    "z-ai/glm-5.3-flash-low": {
+      "requested": 2850,
+      "succeeded": 2850,
+      "parse_failures": 0,
+      "errors": 0,
+      "completion_tokens": 50150,
+      "cost": 0.45086949,
+      "truncated": 0,
+      "total_latency_s": 980425.8842925774
+    },
+    "z-ai/glm-5.3-flash-medium": {
+      "requested": 2850,
+      "succeeded": 2850,
+      "parse_failures": 0,
+      "errors": 0,
+      "completion_tokens": 49867,
+      "cost": 0.44716022,
+      "truncated": 0,
+      "total_latency_s": 973245.7549618324
+    },
+    "google/gemini-2.5-flash-lite-low": {
+      "requested": 2850,
+      "succeeded": 2392,
+      "parse_failures": 21,
+      "errors": 0,
+      "completion_tokens": 2522395,
+      "cost": 1.25965067,
+      "truncated": 2,
+      "total_latency_s": 1326227.239823062
+    },
+    "google/gemini-2.5-flash-lite-medium": {
+      "requested": 2850,
+      "succeeded": 2772,
+      "parse_failures": 5,
+      "errors": 0,
+      "completion_tokens": 4550430,
+      "cost": 2.09520238,
+      "truncated": 2,
+      "total_latency_s": 1328570.477048296
+    },
+    "openai/gpt-6-luna-low": {
+      "requested": 2850,
+      "succeeded": 2850,
+      "parse_failures": 0,
+      "errors": 0,
+      "completion_tokens": 107050,
+      "cost": 1.007398,
+      "truncated": 0,
+      "total_latency_s": 984589.043763536
+    },
+    "openai/gpt-6-luna-medium": {
+      "requested": 2850,
+      "succeeded": 2850,
+      "parse_failures": 0,
+      "errors": 0,
+      "completion_tokens": 198745,
+      "cost": 1.0532455,
+      "truncated": 0,
+      "total_latency_s": 1006318.5724798241
+    },
+    "mistralai/mistral-small-2603-low": {
+      "requested": 2850,
+      "succeeded": 2850,
+      "parse_failures": 0,
+      "errors": 0,
+      "completion_tokens": 1737802,
+      "cost": 1.307346,
+      "truncated": 0,
+      "total_latency_s": 2136158.2650021194
+    },
+    "mistralai/mistral-small-2603-medium": {
+      "requested": 2850,
+      "succeeded": 2850,
+      "parse_failures": 0,
+      "errors": 0,
+      "completion_tokens": 1744461,
+      "cost": 1.28506716,
+      "truncated": 0,
+      "total_latency_s": 2290340.659175924
+    }
+  }
+}

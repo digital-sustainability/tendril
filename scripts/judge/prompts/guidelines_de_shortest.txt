@@ -1,0 +1,44 @@
+Annotiere die Relevanz einer Textstelle aus einem Ausschreibungsdokument für den angegebenen Bezugstext. Bewerte nur die im Aufgabenblock genannte Frage: **Handlungsfeld** oder **Kriterium**.
+
+Das Handlungsfeld ist das übergeordnete Ziel, das Kriterium dessen konkrete, engere Umsetzung. Eine Textstelle kann daher für das Handlungsfeld relevant sein, ohne das Kriterium zu erfüllen. Das Handlungsfeld ist nur bei Nachhaltigkeitsbezug relevant. Seine Bewertung ist in der Regel mindestens so hoch wie die des Kriteriums; Ausnahmen sind kurze oder allgemeine Handlungsfelder, die nicht alle Aspekte des Kriteriums abdecken.
+
+## Entscheidungsweg
+
+1. Ist die Textstelle **lesbar**?
+   → Nein: Nicht auswertbar (für **beide** Fragen).
+2. Behandelt sie das **gleiche sachliche Thema** wie der Bezugstext?
+   → Nein: 0.
+3. Liefert sie **echte Evidenz** statt Boilerplate oder Formatierungsrauschen?
+   → Nein: 0.
+4. Sind die Hinweise **indirekt, unvollständig oder mehrdeutig**?
+   → Ja: 1.
+5. Sind die Hinweise **explizit, konkret und klar ausgerichtet**?
+   → Ja: 2.
+
+## Auslegung
+
+- **0 — nicht relevant:** Die lesbare Textstelle liefert keine aussagekräftige Evidenz zum Bezugstext. Auch verständlicher, aber unpassender oder inhaltlich wertloser Text erhält 0, etwa Verwaltungstext, Boilerplate, Formatierungsrauschen oder bloss lexikalische Übereinstimmung.
+- **1 — teilweise relevant:** Die Evidenz ist thematisch passend, aber indirekt, unvollständig, schwach, mehrdeutig, nur teilweise ausgerichtet oder schwächer als das geforderte Ambitionsniveau.
+- **2 — klar relevant:** Die Evidenz ist direkt, konkret und passend, etwa eine explizite Anforderung, Verpflichtung, Massnahme, Qualifikation oder ein Nachweis.
+- **Nicht auswertbar:** Nur wenn ein Extraktionsfehler die Aussage unverständlich macht, etwa durch zerrissene Wörter, leere Punktlinien oder Zeichensalat. Dies gilt für beide Fragen; gib dafür 0 aus. Lesbarer, aber irrelevanter Text ist dagegen 0.
+
+Bewerte ausschliesslich die Textstelle ohne Kontext. Evidenz, die erst mit Kontext klar wäre, erhält höchstens 1; eine 2 muss eigenständig klar sein. Entscheidend ist der Inhalt, nicht die Form: Verständliche Tabellen, Stichworte, Abkürzungen und Normverweise werden normal bewertet.
+
+Ambitionsniveaus gelten nur für Kriterien. „Gleich für alle drei Niveaus“ bedeutet, dass das Kriterium nicht danach differenziert.
+
+## Aufgabe
+
+{task_instruction}
+
+Bezugstext: {query}
+
+{ambition_levels}
+
+Textstelle:
+"""
+{passage}
+"""
+
+Wende den Entscheidungsweg an und antworte ausschliesslich mit:
+
+{"Bewertung": <Ganzzahl 0, 1 oder 2>}

@@ -1,0 +1,67 @@
+{
+  "system_a": "results/predictions/nvidia__Nemotron-3-Embed-1B-BF16",
+  "system_b": "results/predictions/nvidia__Nemotron-3-Embed-1B-BF16__TENDRIL",
+  "dataset": {
+    "repo": "IntelliProcure/TENDRIL",
+    "revision": "15eef0bc165cd9eb8a467ea53712dc67ca2a9685"
+  },
+  "unit": "project",
+  "iterations": 10000,
+  "seed": 0,
+  "percentiles": [
+    2.5,
+    97.5
+  ],
+  "comparisons": [
+    {
+      "metric": "ndcg_at_10",
+      "mean_a": 0.5643039896639888,
+      "mean_b": 0.6342703615345959,
+      "difference": 0.06996637187060717,
+      "lower": 0.033845737320080865,
+      "upper": 0.11717295935506077,
+      "p_b_not_better": 0.0,
+      "p_two_sided": 0.0
+    },
+    {
+      "metric": "precision_at_10",
+      "mean_a": 0.19552461978507024,
+      "mean_b": 0.21828746406301963,
+      "difference": 0.02276284427794939,
+      "lower": 0.013534140472398981,
+      "upper": 0.03325359312214603,
+      "p_b_not_better": 0.0,
+      "p_two_sided": 0.0
+    },
+    {
+      "metric": "recall_at_10",
+      "mean_a": 0.7005904705007604,
+      "mean_b": 0.7720963839698679,
+      "difference": 0.07150591346910751,
+      "lower": 0.04047880989310654,
+      "upper": 0.10452175034516265,
+      "p_b_not_better": 0.0,
+      "p_two_sided": 0.0
+    },
+    {
+      "metric": "map_at_10",
+      "mean_a": 0.4550364516338646,
+      "mean_b": 0.5244977272793121,
+      "difference": 0.06946127564544752,
+      "lower": 0.02568330733877745,
+      "upper": 0.13077052996109353,
+      "p_b_not_better": 0.0002,
+      "p_two_sided": 0.0004
+    },
+    {
+      "metric": "mrr_at_10",
+      "mean_a": 0.5936842565529677,
+      "mean_b": 0.6464197572106496,
+      "difference": 0.052735500657681844,
+      "lower": 0.00789097828877937,
+      "upper": 0.11462950345277213,
+      "p_b_not_better": 0.0071,
+      "p_two_sided": 0.0142
+    }
+  ]
+}

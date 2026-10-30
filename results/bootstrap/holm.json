@@ -1,0 +1,192 @@
+{
+  "family": "metric",
+  "alpha": 0.05,
+  "results": [
+    "results/bootstrap/BAAI__bge-m3__TENDRIL.json",
+    "results/bootstrap/malteos__most-embed-de__TENDRIL.json",
+    "results/bootstrap/nvidia__Nemotron-3-Embed-1B-BF16__TENDRIL.json",
+    "results/bootstrap/Snowflake__snowflake-arctic-embed-l-v2.0__TENDRIL.json"
+  ],
+  "tests": [
+    {
+      "comparison": "BAAI__bge-m3 -> BAAI__bge-m3__TENDRIL",
+      "metric": "ndcg_at_10",
+      "difference": 0.1090299874143752,
+      "p": 0.0002,
+      "p_holm": 0.0008,
+      "upper_bound": true,
+      "significant": true
+    },
+    {
+      "comparison": "nvidia__Nemotron-3-Embed-1B-BF16 -> nvidia__Nemotron-3-Embed-1B-BF16__TENDRIL",
+      "metric": "ndcg_at_10",
+      "difference": 0.06996637187060717,
+      "p": 0.0002,
+      "p_holm": 0.0008,
+      "upper_bound": true,
+      "significant": true
+    },
+    {
+      "comparison": "Snowflake__snowflake-arctic-embed-l-v2.0 -> Snowflake__snowflake-arctic-embed-l-v2.0__TENDRIL",
+      "metric": "ndcg_at_10",
+      "difference": 0.09537884571297495,
+      "p": 0.0002,
+      "p_holm": 0.0008,
+      "upper_bound": true,
+      "significant": true
+    },
+    {
+      "comparison": "malteos__most-embed-de -> malteos__most-embed-de__TENDRIL",
+      "metric": "ndcg_at_10",
+      "difference": 0.019617557810457042,
+      "p": 0.0994,
+      "p_holm": 0.0994,
+      "upper_bound": false,
+      "significant": false
+    },
+    {
+      "comparison": "BAAI__bge-m3 -> BAAI__bge-m3__TENDRIL",
+      "metric": "precision_at_10",
+      "difference": 0.03960324484501848,
+      "p": 0.0002,
+      "p_holm": 0.0008,
+      "upper_bound": true,
+      "significant": true
+    },
+    {
+      "comparison": "nvidia__Nemotron-3-Embed-1B-BF16 -> nvidia__Nemotron-3-Embed-1B-BF16__TENDRIL",
+      "metric": "precision_at_10",
+      "difference": 0.02276284427794939,
+      "p": 0.0002,
+      "p_holm": 0.0008,
+      "upper_bound": true,
+      "significant": true
+    },
+    {
+      "comparison": "Snowflake__snowflake-arctic-embed-l-v2.0 -> Snowflake__snowflake-arctic-embed-l-v2.0__TENDRIL",
+      "metric": "precision_at_10",
+      "difference": 0.034804019726496466,
+      "p": 0.0002,
+      "p_holm": 0.0008,
+      "upper_bound": true,
+      "significant": true
+    },
+    {
+      "comparison": "malteos__most-embed-de -> malteos__most-embed-de__TENDRIL",
+      "metric": "precision_at_10",
+      "difference": 0.010537229878942012,
+      "p": 0.0344,
+      "p_holm": 0.0344,
+      "upper_bound": false,
+      "significant": true
+    },
+    {
+      "comparison": "BAAI__bge-m3 -> BAAI__bge-m3__TENDRIL",
+      "metric": "recall_at_10",
+      "difference": 0.11793980255622527,
+      "p": 0.0002,
+      "p_holm": 0.0008,
+      "upper_bound": true,
+      "significant": true
+    },
+    {
+      "comparison": "nvidia__Nemotron-3-Embed-1B-BF16 -> nvidia__Nemotron-3-Embed-1B-BF16__TENDRIL",
+      "metric": "recall_at_10",
+      "difference": 0.07150591346910751,
+      "p": 0.0002,
+      "p_holm": 0.0008,
+      "upper_bound": true,
+      "significant": true
+    },
+    {
+      "comparison": "Snowflake__snowflake-arctic-embed-l-v2.0 -> Snowflake__snowflake-arctic-embed-l-v2.0__TENDRIL",
+      "metric": "recall_at_10",
+      "difference": 0.10240391816449812,
+      "p": 0.0002,
+      "p_holm": 0.0008,
+      "upper_bound": true,
+      "significant": true
+    },
+    {
+      "comparison": "malteos__most-embed-de -> malteos__most-embed-de__TENDRIL",
+      "metric": "recall_at_10",
+      "difference": 0.0271425930602347,
+      "p": 0.0654,
+      "p_holm": 0.0654,
+      "upper_bound": false,
+      "significant": false
+    },
+    {
+      "comparison": "BAAI__bge-m3 -> BAAI__bge-m3__TENDRIL",
+      "metric": "map_at_10",
+      "difference": 0.11267817374177852,
+      "p": 0.0002,
+      "p_holm": 0.0008,
+      "upper_bound": true,
+      "significant": true
+    },
+    {
+      "comparison": "Snowflake__snowflake-arctic-embed-l-v2.0 -> Snowflake__snowflake-arctic-embed-l-v2.0__TENDRIL",
+      "metric": "map_at_10",
+      "difference": 0.09349238272360244,
+      "p": 0.0002,
+      "p_holm": 0.0008,
+      "upper_bound": true,
+      "significant": true
+    },
+    {
+      "comparison": "nvidia__Nemotron-3-Embed-1B-BF16 -> nvidia__Nemotron-3-Embed-1B-BF16__TENDRIL",
+      "metric": "map_at_10",
+      "difference": 0.06946127564544752,
+      "p": 0.0004,
+      "p_holm": 0.0008,
+      "upper_bound": true,
+      "significant": true
+    },
+    {
+      "comparison": "malteos__most-embed-de -> malteos__most-embed-de__TENDRIL",
+      "metric": "map_at_10",
+      "difference": 0.015572266130044587,
+      "p": 0.2326,
+      "p_holm": 0.2326,
+      "upper_bound": false,
+      "significant": false
+    },
+    {
+      "comparison": "Snowflake__snowflake-arctic-embed-l-v2.0 -> Snowflake__snowflake-arctic-embed-l-v2.0__TENDRIL",
+      "metric": "mrr_at_10",
+      "difference": 0.07836644970310858,
+      "p": 0.0002,
+      "p_holm": 0.0008,
+      "upper_bound": true,
+      "significant": true
+    },
+    {
+      "comparison": "BAAI__bge-m3 -> BAAI__bge-m3__TENDRIL",
+      "metric": "mrr_at_10",
+      "difference": 0.08108768298084557,
+      "p": 0.001,
+      "p_holm": 0.003,
+      "upper_bound": false,
+      "significant": true
+    },
+    {
+      "comparison": "nvidia__Nemotron-3-Embed-1B-BF16 -> nvidia__Nemotron-3-Embed-1B-BF16__TENDRIL",
+      "metric": "mrr_at_10",
+      "difference": 0.052735500657681844,
+      "p": 0.0142,
+      "p_holm": 0.0284,
+      "upper_bound": false,
+      "significant": true
+    },
+    {
+      "comparison": "malteos__most-embed-de -> malteos__most-embed-de__TENDRIL",
+      "metric": "mrr_at_10",
+      "difference": 0.009042904824825393,
+      "p": 0.4876,
+      "p_holm": 0.4876,
+      "upper_bound": false,
+      "significant": false
+    }
+  ]
+}

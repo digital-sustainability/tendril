@@ -1,0 +1,67 @@
+{
+  "system_a": "results/predictions/malteos__most-embed-de",
+  "system_b": "results/predictions/malteos__most-embed-de__TENDRIL",
+  "dataset": {
+    "repo": "IntelliProcure/TENDRIL",
+    "revision": "15eef0bc165cd9eb8a467ea53712dc67ca2a9685"
+  },
+  "unit": "project",
+  "iterations": 10000,
+  "seed": 0,
+  "percentiles": [
+    2.5,
+    97.5
+  ],
+  "comparisons": [
+    {
+      "metric": "ndcg_at_10",
+      "mean_a": 0.6400695909658234,
+      "mean_b": 0.6596871487762804,
+      "difference": 0.019617557810457042,
+      "lower": -0.0030108768903234526,
+      "upper": 0.04415380156440746,
+      "p_b_not_better": 0.0497,
+      "p_two_sided": 0.0994
+    },
+    {
+      "metric": "precision_at_10",
+      "mean_a": 0.216005754916816,
+      "mean_b": 0.22654298479575802,
+      "difference": 0.010537229878942012,
+      "lower": 0.0006477388412592842,
+      "upper": 0.021832328881587607,
+      "p_b_not_better": 0.0172,
+      "p_two_sided": 0.0344
+    },
+    {
+      "metric": "recall_at_10",
+      "mean_a": 0.7603044358709994,
+      "mean_b": 0.7874470289312341,
+      "difference": 0.0271425930602347,
+      "lower": -0.0013827362916871966,
+      "upper": 0.06007494803720731,
+      "p_b_not_better": 0.0327,
+      "p_two_sided": 0.0654
+    },
+    {
+      "metric": "map_at_10",
+      "mean_a": 0.5372012452776413,
+      "mean_b": 0.5527735114076859,
+      "difference": 0.015572266130044587,
+      "lower": -0.009074710185503272,
+      "upper": 0.04174164913228342,
+      "p_b_not_better": 0.1163,
+      "p_two_sided": 0.2326
+    },
+    {
+      "metric": "mrr_at_10",
+      "mean_a": 0.6639857103874288,
+      "mean_b": 0.6730286152122542,
+      "difference": 0.009042904824825393,
+      "lower": -0.016447997829231675,
+      "upper": 0.0339065930418963,
+      "p_b_not_better": 0.2438,
+      "p_two_sided": 0.4876
+    }
+  ]
+}

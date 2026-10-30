@@ -1,0 +1,3 @@
+scope,n,violation_rate
+human (ground truth),1425,0.0014035087719298245
+model z-ai/glm-5.3-flash-low,1425,0.019649122807017545

@@ -1,0 +1,515 @@
+{"id":"Construction_Area::HF-001","text":"Nachhaltigkeit"}
+{"id":"Construction_Area::HF-002","text":"Soziale Nachhaltigkeit / Gesellschaftliche Nachhaltigkeit"}
+{"id":"Construction_Area::HF-003","text":"Wirtschaftliche Nachhaltigkeit (inkl. Lebenszykluskosten)"}
+{"id":"Construction_Area::HF-004","text":"Ökologische Nachhaltigkeit"}
+{"id":"Construction_Area::HF-005","text":"Ziele und Pflichtenhefte"}
+{"id":"Construction_Area::HF-006","text":"Städtebau und Architektur"}
+{"id":"Construction_Area::HF-007","text":"Governance und Partizipation"}
+{"id":"Construction_Area::HF-008","text":"Arealentwicklung"}
+{"id":"Construction_Area::HF-009","text":"Erreichbarkeit und Angebot im Umfeld"}
+{"id":"Construction_Area::HF-010","text":"Zugang und Erschliessung des Areals"}
+{"id":"Construction_Area::HF-011","text":"Räume sozialer Interaktion"}
+{"id":"Construction_Area::HF-012","text":"Mikroklima"}
+{"id":"Construction_Area::HF-013","text":"Lebenszykluskosten"}
+{"id":"Construction_Area::HF-014","text":"Bewirtschaftung"}
+{"id":"Construction_Area::HF-015","text":"Wiederverwendung"}
+{"id":"Construction_Area::HF-016","text":"Naturgefahren"}
+{"id":"Construction_Area::HF-017","text":"Bezahlbare Nutzungen"}
+{"id":"Construction_Area::HF-018","text":"Anpassungsfähigkeit"}
+{"id":"Construction_Area::HF-019","text":"Regionale Wertschöpfung"}
+{"id":"Construction_Area::HF-020","text":"Konnektivität"}
+{"id":"Construction_Area::HF-021","text":"Treibhausgasemissionen Erstellung"}
+{"id":"Construction_Area::HF-022","text":"Treibhausgasemissionen Betrieb"}
+{"id":"Construction_Area::HF-023","text":"Treibhausgasemissionen Mobilität"}
+{"id":"Construction_Area::HF-024","text":"Energiebedarf Erstellung"}
+{"id":"Construction_Area::HF-025","text":"Energiebedarf Betrieb"}
+{"id":"Construction_Area::HF-026","text":"Energiekonzept"}
+{"id":"Construction_Area::HF-027","text":"Baustelle"}
+{"id":"Construction_Area::HF-028","text":"Betriebsoptimierung"}
+{"id":"Construction_Area::HF-029","text":"Mobilitätsmassnahmen"}
+{"id":"Construction_Area::HF-030","text":"Elektromobilität"}
+{"id":"Construction_Area::HF-031","text":"Kreislaufwirtschaft Nutzung"}
+{"id":"Construction_Area::HF-032","text":"Biodiversität"}
+{"id":"Construction_Area::HF-033","text":"Wasser"}
+{"id":"Construction_Area::HF-034","text":"Haushälterische Bodennutzung"}
+{"id":"Construction_Area::HF-035","text":"Materialbewirtschaftung"}
+{"id":"Construction_Area::HF-036","text":"Lärmschutz"}
+{"id":"Construction_Area::HF-037","text":"Baustellenlogistik"}
+{"id":"Construction_Area::HF-038","text":"Transportwege"}
+{"id":"Construction_Area::HF-039","text":"Baustoffe"}
+{"id":"Construction_Area::HF-040","text":"Baumaschinen"}
+{"id":"Construction_Area::HF-041","text":"Unternehmensklimaziele"}
+{"id":"Construction_Area::HF-042","text":"Nachhaltigkeitsstandards"}
+{"id":"Construction_Area::HF-043","text":"Arbeitsbedingungen"}
+{"id":"Construction_Area::HF-044","text":"Arbeitsbedingungen"}
+{"id":"Construction_Buildings::HF-001","text":"Nachhaltigkeit"}
+{"id":"Construction_Buildings::HF-002","text":"Soziale Nachhaltigkeit / Gesellschaftliche Nachhaltigkeit"}
+{"id":"Construction_Buildings::HF-003","text":"Wirtschaftliche Nachhaltigkeit (inkl. Lebenszykluskosten)"}
+{"id":"Construction_Buildings::HF-004","text":"Ökologische Nachhaltigkeit"}
+{"id":"Construction_Buildings::HF-005","text":"Ziele und Pflichtenhefte"}
+{"id":"Construction_Buildings::HF-006","text":"Städtebau und Architektur"}
+{"id":"Construction_Buildings::HF-007","text":"Partizipation"}
+{"id":"Construction_Buildings::HF-008","text":"Erreichbarkeit und Nutzungsangebot im Quartierumfeld"}
+{"id":"Construction_Buildings::HF-009","text":"Hindernisfreies Bauen"}
+{"id":"Construction_Buildings::HF-010","text":"Räume sozialer Interaktion"}
+{"id":"Construction_Buildings::HF-011","text":"Sicherheit"}
+{"id":"Construction_Buildings::HF-012","text":"Raumluftqualität"}
+{"id":"Construction_Buildings::HF-013","text":"Schadstoffe und Strahlung"}
+{"id":"Construction_Buildings::HF-014","text":"Mikroklima"}
+{"id":"Construction_Buildings::HF-015","text":"Sommerlicher Wärmeschutz"}
+{"id":"Construction_Buildings::HF-016","text":"Winterlicher Wärmeschutz"}
+{"id":"Construction_Buildings::HF-017","text":"Tageslicht"}
+{"id":"Construction_Buildings::HF-018","text":"Schallschutz"}
+{"id":"Construction_Buildings::HF-019","text":"Lebenszykluskosten"}
+{"id":"Construction_Buildings::HF-020","text":"Bewirtschaftungsgerechte Planung und Realisierung"}
+{"id":"Construction_Buildings::HF-021","text":"Wiederverwendung und Systemtrennung"}
+{"id":"Construction_Buildings::HF-022","text":"Naturgefahren"}
+{"id":"Construction_Buildings::HF-023","text":"Nutzungsdichte"}
+{"id":"Construction_Buildings::HF-024","text":"Nutzungsflexibilität und -variabilität"}
+{"id":"Construction_Buildings::HF-025","text":"Regionale Wertschöpfung"}
+{"id":"Construction_Buildings::HF-026","text":"Treibhausgasemissionen Erstellung"}
+{"id":"Construction_Buildings::HF-027","text":"Treibhausgasemissionen Betrieb"}
+{"id":"Construction_Buildings::HF-028","text":"Treibhausgasemissionen Mobilität"}
+{"id":"Construction_Buildings::HF-029","text":"Energiebedarf Erstellung"}
+{"id":"Construction_Buildings::HF-030","text":"Energiebedarf Betrieb"}
+{"id":"Construction_Buildings::HF-031","text":"Baustelle"}
+{"id":"Construction_Buildings::HF-032","text":"Ökologische Baustoffe"}
+{"id":"Construction_Buildings::HF-033","text":"Systematische Inbetriebnahme"}
+{"id":"Construction_Buildings::HF-034","text":"Energiemonitoring"}
+{"id":"Construction_Buildings::HF-035","text":"Mobilitätsmassnahmen"}
+{"id":"Construction_Buildings::HF-036","text":"Elektromobilität"}
+{"id":"Construction_Buildings::HF-037","text":"Biodiversität"}
+{"id":"Construction_Buildings::HF-038","text":"Wasser"}
+{"id":"Construction_Buildings::HF-039","text":"Haushälterische Bodennutzung"}
+{"id":"Construction_Buildings::HF-040","text":"Materialbewirtschaftung"}
+{"id":"Construction_Buildings::HF-041","text":"Lärmschutz"}
+{"id":"Construction_Buildings::HF-042","text":"Baustellenlogistik"}
+{"id":"Construction_Buildings::HF-043","text":"Transportwege"}
+{"id":"Construction_Buildings::HF-044","text":"Baustoffe"}
+{"id":"Construction_Buildings::HF-045","text":"Baumaschinen"}
+{"id":"Construction_Buildings::HF-046","text":"Unternehmensklimaziele"}
+{"id":"Construction_Buildings::HF-047","text":"Nachhaltigkeitsstandards"}
+{"id":"Construction_Buildings::HF-048","text":"Arbeitsbedingungen"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-001","text":"Nachhaltigkeit"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-002","text":"Soziale Nachhaltigkeit / Gesellschaftliche Nachhaltigkeit"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-003","text":"wirtschaftliche nachhaltigkeit (inkl. lebenszykluskosten)"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-004","text":"Ökologische Nachhaltigkeit"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-005","text":"projektbegleitende nachhaltigkeitsbeurteilung"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-006","text":"zielsetzung des projektes und systemabgrenzung"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-007","text":"projektspezifische zielkonflikte und synergien"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-008","text":"Raumplanung, Landschaften, Ortsbilder und Kulturraum"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-009","text":"wohnqualitaet und zusammenleben"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-010","text":"Zugang zur Infrastruktur (inkl. Barrierefreiheit) und Aufenthaltsqualität"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-011","text":"kommunikation und partizipation"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-012","text":"Sozialverträgliches Verhalten (inkl. Korruption, Bestechung)"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-013","text":"rechtssicherheit"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-014","text":"Solidarität, Gerechtigkeit, Verteilungseffekte"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-015","text":"Arbeitssicherheit, Unfallvermeidung, Rettung und Gesundheit"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-016","text":"schutz vor gewalt und kriminalitaet"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-017","text":"Betriebswirtschaftliches Kosten-Nutzen-Verhältnis"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-018","text":"nutzungsflexibilitaet, anpassungsfaehigkeit und rueckbau"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-019","text":"volkswirtschaftliches kosten-nutzen-verhaeltnis"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-020","text":"regionalwirtschaftliche aspekte"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-021","text":"oekonomische nutzung vorhandener infrastrukturen"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-022","text":"geeignete finanzierung"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-023","text":"energieverbrauch"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-024","text":"flaechennutzung, recycling und boden"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-025","text":"belastete standorte"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-026","text":"Verwertung von unbelasteten und belasteten Aushub-, Ausbruch- und Rückbaumaterialien (Abfall)"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-027","text":"Umwelt und ressourcenschonender Materialeinsatz, Rückbaubarkeit"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-028","text":"Beeinträchtigung des Klimas"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-029","text":"Umweltbelastungen"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-030","text":"Oberflächengewässer und Grundwasser"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-031","text":"Natur und Landschaft"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-032","text":"Naturgefahren"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-033","text":"stoerfaelle"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-034","text":"Materialbewirtschaftung"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-035","text":"Lärmschutz"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-036","text":"baustellenlogistik"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-037","text":"Transportwege"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-038","text":"Baustoffe"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-039","text":"Baumaschinen"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-040","text":"unternehmensklimaziele"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-041","text":"nachhaltigkeitsstandards"}
+{"id":"Construction_Civil_Engineering_Infrastructure::HF-042","text":"Arbeitsbedingungen"}
+{"id":"Electricity::HF-001","text":"Beschaffung von Strom mit definierten Mindest- und Zielanteilen erneuerbarer Energien sowie nachhaltiger Betriebs- und Wärmeerzeugung"}
+{"id":"Electricity::HF-002","text":"Grüner Strom aus erneuerbaren Quellen und modernen Kraftwerken mit Offenlegung der Herkunftsnachweise"}
+{"id":"Electricity::HF-003","text":"Restlicher Anteil an Strom (der nicht „Grüner Strom“ ist) mit Offenlegung der Herkunft"}
+{"id":"Electricity::HF-004","text":"Reduktion des Endenergiebedarfs durch effiziente Gebäudehülle, Wärmerückgewinnung, bewusstes Nutzerverhalten und Eigenproduktion von Energie"}
+{"id":"Electricity::HF-005","text":"effiziente energiebereitstellung- und ausnuetzung sowie anlagenoptimierung im gebaeude"}
+{"id":"Electricity::HF-006","text":"Praxisanforderungen für PV-Anlagen in Bezug auf Qualität und Nachhaltigkeit"}
+{"id":"Food::HF-001","text":"Proteine variieren und tierische Produkte reduzieren.\nVermehrt vegetarische Gerichte einplanen."}
+{"id":"Food::HF-002","text":"Lebensmittelabfälle vermeiden. Möglichst wenige Lebensmittelabfälle."}
+{"id":"Food::HF-003","text":"Produkte aus nachhaltiger Produktion und fairem Handel bevorzugen.\nBiologisch angebaute Produkte verwenden."}
+{"id":"Food::HF-004","text":"Verbot von gefährdeten Arten"}
+{"id":"Food::HF-005","text":"Saisonprodukte bevorzugen.\nSaisonale Produkte verwenden."}
+{"id":"Food::HF-006","text":"Regionale Produkte bevorzugen und die Rückverfolgbarkeit der Lebensmittel fördern.\nLokale Produkte (z.B. Früchte, die hier wachsen) verwenden."}
+{"id":"Food::HF-007","text":"Lebensmittelverpackungen reduzieren."}
+{"id":"Food::HF-008","text":"Bei den Gerichten auf eine ausgewogene Ernährung achten und die Gesundheit der Konsumenten fördern."}
+{"id":"Food::HF-009","text":"Konsumenten über Allergene informieren und sie so weit wie möglich reduzieren."}
+{"id":"Food::HF-010","text":"Nachhaltigkeitsberichterstattung etablieren."}
+{"id":"Food::HF-011","text":"Energieverbrauch in den Küchen reduzieren."}
+{"id":"Food::HF-012","text":"Ökologische Reinigungsmittel bevorzugen."}
+{"id":"Food::HF-013","text":"Einwegverpackungen vermeiden und den Plastikverbrauch reduzieren."}
+{"id":"Food::HF-014","text":"Einen ökologischen Transport der Gerichte von der Produktionsküche zur Gaststätte bevorzugen."}
+{"id":"Food::HF-015","text":"Ergänzungen: Soziale Dimension der Nachhaltigkeit"}
+{"id":"Furniture::HF-001","text":"Qualitätsmanagement"}
+{"id":"Furniture::HF-002","text":"Umweltmanagement"}
+{"id":"Furniture::HF-003","text":"Garantiedauer"}
+{"id":"Furniture::HF-004","text":"Ersatzteile"}
+{"id":"Furniture::HF-005","text":"Rücknahme"}
+{"id":"Furniture::HF-006","text":"Wiederverwertung"}
+{"id":"Furniture::HF-007","text":"Wiederaufbereitung"}
+{"id":"Furniture::HF-008","text":"Recycling"}
+{"id":"Furniture::HF-009","text":"Verpackungsmaterial"}
+{"id":"Furniture::HF-010","text":"Nutzer*inneninformation"}
+{"id":"Furniture::HF-011","text":"Reinigungs- und Pflegeanleitung"}
+{"id":"Furniture::HF-012","text":"Qualitativ hochwertige Verarbeitung"}
+{"id":"Furniture::HF-013","text":"Diverse Materialtypen:\nDiv. Schadstoffe"}
+{"id":"Furniture::HF-014","text":"Teile aus Metall:\nChrom(VI)"}
+{"id":"Furniture::HF-015","text":"Holz/Holzwerkstoffe: Nachhaltige Holzwirtschaft"}
+{"id":"Furniture::HF-016","text":"Holz/Holzwerkstoffe: Formaldehyd"}
+{"id":"Furniture::HF-017","text":"Holz/Holzwerkstoffe: Oberflächenbehandlung"}
+{"id":"Furniture::HF-018","text":"Glas: Blei"}
+{"id":"Furniture::HF-019","text":"Textilien und Leder"}
+{"id":"Furniture::HF-020","text":"Kunststoffe: Kennzeichnung"}
+{"id":"Furniture::HF-021","text":"Kunststoffe: Bisphenol A"}
+{"id":"Furniture::HF-022","text":"Kunststoffe: Phthalat"}
+{"id":"Furniture::HF-023","text":"Kunststoff- und Schaumteile: FCKW (Fluorchlorkohlenwasserstoffe), FKW (Fluorkohlenwasserstoffe) und H-FCKW (teilhalogenierte Fluorchlorkohlenwasserstoffe)"}
+{"id":"Furniture::HF-024","text":"Kunststoff- und Schaumteile: PVC (Polyvinylchlorid)"}
+{"id":"Furniture::HF-025","text":"Schaumstoffe: Zinnverbindungen"}
+{"id":"Furniture::HF-026","text":"Ergänzungen: Soziale Dimension der Nachhaltigkeit"}
+{"id":"Green_Spaces::HF-001","text":"Arbeits- und Gesundheitsschutz"}
+{"id":"Green_Spaces::HF-002","text":"Schulung"}
+{"id":"Green_Spaces::HF-003","text":"Recycling und Entsorgung"}
+{"id":"Green_Spaces::HF-004","text":"lieferung"}
+{"id":"Green_Spaces::HF-005","text":"torf und kokosprodukte"}
+{"id":"Green_Spaces::HF-006","text":"bioqualitaet"}
+{"id":"Green_Spaces::HF-007","text":"Pflanzenwahl"}
+{"id":"Green_Spaces::HF-008","text":"toxizitaet (nur kinderspielplaetze)"}
+{"id":"Green_Spaces::HF-009","text":"Bewässerung"}
+{"id":"Green_Spaces::HF-010","text":"heizung der gewaechshaeuser"}
+{"id":"Green_Spaces::HF-011","text":"bluetendauer verlaengern"}
+{"id":"Green_Spaces::HF-012","text":"Pflanzenschutz"}
+{"id":"Green_Spaces::HF-013","text":"Düngung (Wechselflor)"}
+{"id":"Green_Spaces::HF-014","text":"Label / Standard (Natursteine)"}
+{"id":"Green_Spaces::HF-015","text":"recyclingstein (natursteine)"}
+{"id":"Green_Spaces::HF-016","text":"verpackung"}
+{"id":"IT_Software::HF-001","text":"Ressourceneffizienz - Erforderliche minimale Systemvoraussetzungen"}
+{"id":"IT_Software::HF-002","text":"Ressourceneffizienz - Hardware-Auslastung und -Inanspruchnahme"}
+{"id":"IT_Software::HF-003","text":"Ressourceneffizienz - Unterstützung des Energiemanagements"}
+{"id":"IT_Software::HF-004","text":"Nutzungsautonomie - Transparenz"}
+{"id":"IT_Software::HF-005","text":"Nutzungsautonomie - Kontinuität des Softwareproduktes"}
+{"id":"IT_Software::HF-006","text":"Nutzungsautonomie - Deintallierbarkeit"}
+{"id":"IT_Software::HF-007","text":"Nutzungsautonomie - Offlinefähigkeit"}
+{"id":"IT_Software::HF-008","text":"Nutzungsautonomie - Modularität"}
+{"id":"IT_Software::HF-009","text":"Nutzungsautonomie - Werbefreiheit"}
+{"id":"IT_Software::HF-010","text":"Nutzungsautonomie - Dokumentation"}
+{"id":"Info_Com_Tech::HF-001","text":"Für alle Gerätekategorien (Desktop Computer, Thin Client, Notebooks, Tablets, Computermonitore, grosse Bildschirme, Drucker, Multifunktionsgeräte, UCC-Endgeräte (wie Headsets, USB-Speakers, IP Phones und Conferencing Room Systems)): Einhaltung Übereinkommen (ILO und weitere)"}
+{"id":"Info_Com_Tech::HF-002","text":"Für alle Gerätekategorien (Desktop Computer, Thin Client, Notebooks, Tablets, Computermonitore, grosse Bildschirme, Drucker, Multifunktionsgeräte, UCC-Endgeräte (wie Headsets, USB-Speakers, IP Phones und Conferencing Room Systems)): Einhaltung rechtlicher Vorschriften zum Schutz der Unwelt, zur Erhaltung der natürlichen Ressourcen sowie zur Energieeffizienz"}
+{"id":"Info_Com_Tech::HF-003","text":"Für alle Gerätekategorien (Desktop Computer, Thin Client, Notebooks, Tablets, Computermonitore, grosse Bildschirme, Drucker, Multifunktionsgeräte, UCC-Endgeräte (wie Headsets, USB-Speakers, IP Phones und Conferencing Room Systems)): Gewährleistung und Garantie (Vollgarantie)"}
+{"id":"Info_Com_Tech::HF-004","text":"Für alle Gerätekategorien (Desktop Computer, Thin Client, Notebooks, Tablets, Computermonitore, grosse Bildschirme, Drucker, Multifunktionsgeräte, UCC-Endgeräte (wie Headsets, USB-Speakers, IP Phones und Conferencing Room Systems)): Minimierung von Rohstoffen/Manuals in Papierform"}
+{"id":"Info_Com_Tech::HF-005","text":"Desktop Computer und Thin Client: Total Cost of Ownership (TCO) certified"}
+{"id":"Info_Com_Tech::HF-006","text":"Desktop Computer und Thin Client: Mehrleistung Energieeffizienz"}
+{"id":"Info_Com_Tech::HF-007","text":"Desktop Computer und Thin Client: Mehrleistung Minimierung von Rohstoffen, Kunststoff"}
+{"id":"Info_Com_Tech::HF-008","text":"Desktop Computer und Thin Client: Minimierung von Rohstoffen/Zubehör"}
+{"id":"Info_Com_Tech::HF-009","text":"Notebooks und Tablets: Total Cost of Ownership (TCO) certified"}
+{"id":"Info_Com_Tech::HF-010","text":"Notebooks und Tablets: Mehrleistung Energieeffizienz"}
+{"id":"Info_Com_Tech::HF-011","text":"Notebooks und Tablets: Erhöhte Anforderungen an die Langlebigkeit des Akkus"}
+{"id":"Info_Com_Tech::HF-012","text":"Notebooks und Tablets: Werkstoffwahl"}
+{"id":"Info_Com_Tech::HF-013","text":"Notebooks und Tablets: Minimierung von Rohstoffen, Kunststoff"}
+{"id":"Info_Com_Tech::HF-014","text":"Notebooks und Tablets: Minimierung von Rohstoffen/Zubehör"}
+{"id":"Info_Com_Tech::HF-015","text":"Computermonitore und grosse Bildschirme: Total Cost of Ownership (TCO) certified"}
+{"id":"Info_Com_Tech::HF-016","text":"Computermonitore und grosse Bildschirme: Energieffizienz"}
+{"id":"Info_Com_Tech::HF-017","text":"Computermonitore und grosse Bildschirme: Mehrleistung Energieeffizienz"}
+{"id":"Info_Com_Tech::HF-018","text":"Computermonitore und grosse Bildschirme: Minimierung von Rohstoffen, Kunststoffen"}
+{"id":"Info_Com_Tech::HF-019","text":"Computermonitore und grosse Bildschirme: Minimierung von Rohstoffen/Zubehör"}
+{"id":"Info_Com_Tech::HF-020","text":"Drucker und Multifunktionsgeräte: Blauer Engel oder Total Cost of Ownership (TCO) certified"}
+{"id":"Info_Com_Tech::HF-021","text":"Drucker und Multifunktionsgeräte: Umweltmanagementsystem/Reduktion der Treibhausgas-Emissionen"}
+{"id":"Info_Com_Tech::HF-022","text":"Drucker und Multifunktionsgeräte: Mehrleistung Energieeffizienz"}
+{"id":"Info_Com_Tech::HF-023","text":"Drucker und Multifunktionsgeräte: Minimierung von Rohstoffen/Zubehör"}
+{"id":"Info_Com_Tech::HF-024","text":"UCC-Endgeräte (Headsets, USB-Speakers, IP Phones und Conferencing Room Systems): Verlängerung der Lebensdauer: Vorhandensein von Ersatzteilen"}
+{"id":"Info_Com_Tech::HF-025","text":"UCC-Endgeräte (Headsets, USB-Speakers, IP Phones und Conferencing Room Systems): Verlängerung der Lebensdauer: Reparaturfähigkeit"}
+{"id":"Info_Com_Tech::HF-026","text":"UCC-Endgeräte: nur für Headsets: Total Cost of Ownership (TCO) certified"}
+{"id":"Info_Com_Tech::HF-027","text":"UCC-Endgeräte: nur für IP-Phones: Energy star"}
+{"id":"Info_Com_Tech::HF-028","text":"Geräte für Informations- und Kommunikationstechnologie (Notebook, Desktop, Tablet, Smartphone und Peripheriegerät (wie Monitore, Tastaturen, Computermäuse und Dockingstations)): Qualitätsmanagement"}
+{"id":"Info_Com_Tech::HF-029","text":"Re-use Geräte für Informations- und Kommunikationstechnologie (Notebook, Desktop, Tablet, Smartphone und Peripheriegerät (wie Monitore, Tastaturen, Computermäuse und Dockingstations)): Garantie für wieder-\naufbereitete Produkte"}
+{"id":"Info_Com_Tech::HF-030","text":"Re-use Geräte für Informations- und Kommunikationstechnologie (Notebook, Desktop, Tablet, Smartphone und Peripheriegerät (wie Monitore, Tastaturen, Computermäuse und Dockingstations)): Langlebigkeit von neuen Akkus"}
+{"id":"Info_Com_Tech::HF-031","text":"Re-use Geräte für Informations- und Kommunikationstechnologie (Notebook, Desktop, Tablet, Smartphone und Peripheriegerät (wie Monitore, Tastaturen, Computermäuse und Dockingstations)): Langlebigkeit von gebrauchten Akkus"}
+{"id":"Info_Com_Tech::HF-032","text":"Neugeräte für Informations- und Kommunikationstechnologie (Notebook, Desktop, Tablet, Smartphone und Peripheriegerät (wie Monitore, Tastaturen, Computermäuse und Dockingstations)): Herstellergarantie"}
+{"id":"Info_Com_Tech::HF-033","text":"Neugeräte für Informations- und Kommunikationstechnologie (Notebook, Desktop, Tablet, Smartphone und Peripheriegerät (wie Monitore, Tastaturen, Computermäuse und Dockingstations)): Erweiterte Dienstleistungsvereinbarung"}
+{"id":"Info_Com_Tech::HF-034","text":"Neugeräte für Informations- und Kommunikationstechnologie (Notebook, Desktop, Tablet, Smartphone und Peripheriegerät (wie Monitore, Tastaturen, Computermäuse und Dockingstations)): Fortwährende Verfügbarkeit von Ersatzteilen"}
+{"id":"Info_Com_Tech::HF-035","text":"Neugeräte für Informations- und Kommunikationstechnologie (Notebook, Desktop, Tablet, Smartphone und Peripheriegerät (wie Monitore, Tastaturen, Computermäuse und Dockingstations)): Auf Reparierbarkeit ausgelegte Gestaltung"}
+{"id":"Info_Com_Tech::HF-036","text":"Neugeräte für Informations- und Kommunikationstechnologie (Notebook, Desktop, Tablet, Smartphone und Peripheriegerät (wie Monitore, Tastaturen, Computermäuse und Dockingstations)): Langlebigkeit von Akkus"}
+{"id":"Info_Com_Tech::HF-037","text":"Neugeräte für Informations- und Kommunikationstechnologie (Notebook, Desktop, Tablet, Smartphone und Peripheriegerät (wie Monitore, Tastaturen, Computermäuse und Dockingstations)): Energieverbrauch"}
+{"id":"Info_Com_Tech::HF-038","text":"Neugeräte für Informations- und Kommunikationstechnologie (Notebook, Desktop, Tablet, Smartphone und Peripheriegerät (wie Monitore, Tastaturen, Computermäuse und Dockingstations)): End-of-Life-Management-Dienstleistungen"}
+{"id":"Info_Com_Tech::HF-039","text":"Neugeräte für Informations- und Kommunikationstechnologie (Notebook, Desktop, Tablet, Smartphone und Peripheriegerät (wie Monitore, Tastaturen, Computermäuse und Dockingstations)): Berichterstattung über den endgültigen Bestimmungsort von IKT-Geräten"}
+{"id":"Info_Com_Tech::HF-040","text":"Neugeräte für Informations- und Kommunikationstechnologie (Notebook, Desktop, Tablet, Smartphone und Peripheriegerät (wie Monitore, Tastaturen, Computermäuse und Dockingstations)): Marktkonformität"}
+{"id":"Info_Com_Tech::HF-041","text":"Neugeräte für Informations- und Kommunikationstechnologie (Notebook, Desktop, Tablet, Smartphone und Peripheriegerät (wie Monitore, Tastaturen, Computermäuse und Dockingstations)): Transparenz der Lieferkette"}
+{"id":"Info_Com_Tech::HF-042","text":"Neugeräte für Informations- und Kommunikationstechnologie (Notebook, Desktop, Tablet, Smartphone und Peripheriegerät (wie Monitore, Tastaturen, Computermäuse und Dockingstations)): CSR- oder Nachhaltigkeitsbericht"}
+{"id":"Info_Com_Tech::HF-043","text":"Neugeräte für Informations- und Kommunikationstechnologie (Notebook, Desktop, Tablet, Smartphone und Peripheriegerät (wie Monitore, Tastaturen, Computermäuse und Dockingstations)): Verhaltenskodex"}
+{"id":"Info_Com_Tech::HF-044","text":"IT, Kommunikations- und Medientechnik (Hardware): Reparierbarkeit"}
+{"id":"Info_Com_Tech::HF-045","text":"IT, Kommunikations- und Medientechnik (Hardware): Aufbereitete Produkte im Katalog"}
+{"id":"Info_Com_Tech::HF-046","text":"IT, Kommunikations- und Medientechnik (Hardware): Minimierung des Materialeinsatzes"}
+{"id":"Info_Com_Tech::HF-047","text":"IT, Kommunikations- und Medientechnik (Hardware): Kreislaufwirtschafts-Produktdesign"}
+{"id":"Info_Com_Tech::HF-048","text":"IT, Kommunikations- und Medientechnik (Hardware): Rücknahme"}
+{"id":"Info_Com_Tech::HF-049","text":"IT, Kommunikations- und Medientechnik (Hardware): Verwertung"}
+{"id":"Info_Com_Tech::HF-050","text":"Produkt und/oder Dienstleistungen für Datenzentren und Serverräumen sowie Cloud Services: Kauf von IT-Virtualisierungs- oder Konsolidierungsdiensten - Kauf von Diensten für den Betrieb und die Instandhaltung betrieblicher Datenzentren oder Serverräume"}
+{"id":"Info_Com_Tech::HF-051","text":"Produkt und/oder Dienstleistungen für Datenzentren und Serverräumen sowie Cloud Services: Kauf einer IT-Ausstattung mit minimalen Umweltauswirkungen"}
+{"id":"Info_Com_Tech::HF-052","text":"Produkt und/oder Dienstleistungen für Datenzentren und Serverräumen sowie Cloud Services: Bau eines neuen Datenzentrums - Ausbau einer bestehenden Anlage mit einem neuen Datenzentrum und neuer Serverraum-Infrastruktur - Kauf von Konsolidierungsdiensten für bereits vorhandene, in einem neuen Datenzentrum verteilte Serverräume - Kauf von Diensten für den Betrieb und die Instandhaltung betrieblicher Datenzentren oder Serverräume"}
+{"id":"Info_Com_Tech::HF-053","text":"Produkt und/oder Dienstleistungen für Datenzentren und Serverräumen sowie Cloud Services: IKT Betriebsbereich – Temperatur und Feuchtigkeit"}
+{"id":"Info_Com_Tech::HF-054","text":"Produkt und/oder Dienstleistungen für Datenzentren und Serverräumen sowie Cloud Services: Design für die Reparatur und Aufrüstung von Servern und Datenspeichern"}
+{"id":"Info_Com_Tech::HF-055","text":"Produkt und/oder Dienstleistungen für Datenzentren und Serverräumen sowie Cloud Services: Kauf von Dienstleistungen für Server, Datenspeicher und Netzwerkausstattung am Ende ihrer Lebensdauer"}
+{"id":"Info_Com_Tech::HF-056","text":"Produkt und/oder Dienstleistungen für Datenzentren und Serverräumen sowie Cloud Services: Bau eines neuen Datenzentrums - Ausbau eines vorhandenen Gebäudes mit neuem Datenzentrum und neuer Serverraum-Infrastruktur - Konsolidierung vorhandener Serverräume und/oder Datenzentren in neuen oder bereits vorhandenen Datenzentren"}
+{"id":"Info_Com_Tech::HF-057","text":"Produkt und/oder Dienstleistungen für Datenzentren und Serverräumen sowie Cloud Services: Ausbau eines vorhandenen Gebäudes mit neuem Datenzentrum und neuer Serverraum-Infrastruktur - Beschaffung von Kollokations-Diensten - Beschaffung von Hosting-Dienstleistungen - Beschaffung von Cloud-Diensten"}
+{"id":"Info_Com_Tech::HF-058","text":"Produkt und/oder Dienstleistungen für Datenzentren und Serverräumen sowie Cloud Services: Kauf von IT-Virtualisierungs- oder Konsolidierungsdiensten"}
+{"id":"Info_Com_Tech::HF-059","text":"Produkt und/oder Dienstleistungen für Datenzentren und Serverräumen sowie Cloud Services: Bau bzw. Nachrüstung eines neuen oder bereits vorhandenen Datenzentrums"}
+{"id":"Info_Com_Tech::HF-060","text":"Produkt und/oder Dienstleistungen für Datenzentren und Serverräumen sowie Cloud Services: Kauf von Betriebs- und Instandhaltungsdiensten für betriebliche Datenzentren / Serverräume"}
+{"id":"Info_Com_Tech::HF-061","text":"Produkt und/oder Dienstleistungen für Datenzentren und Serverräumen sowie Cloud Services: Beschaffung von Kollokation-Diensten - Beschaffung von Hosting-Diensten - Beschaffung von Cloud-Diensten - Dienste für den Betrieb und die Instandhaltung betrieblicher Datenzentren/Serverräume"}
+{"id":"Light_Elect_Appl::HF-001","text":"Qualitätsmanagement ISO 9001"}
+{"id":"Light_Elect_Appl::HF-002","text":"Umweltmanagement ISO 14001"}
+{"id":"Light_Elect_Appl::HF-003","text":"Innen- und/oder Aussenbeleuchtung: Lichterzeugungstechnik: LED Leuchtdioden"}
+{"id":"Light_Elect_Appl::HF-004","text":"Innenbeleuchtung: Energieverbrauch und -effizienz"}
+{"id":"Light_Elect_Appl::HF-005","text":"Aussenbeleuchtung: Energieeffiziente Strassenbeleuchtungseinrichtungen: Kompetenz des Planungsteams"}
+{"id":"Light_Elect_Appl::HF-006","text":"Aussenbeleuchtung: Energieeffiziente Strassenbeleuchtungseinrichtungen: Kompetenz des Installationsteams"}
+{"id":"Light_Elect_Appl::HF-007","text":"Aussenbeleuchtung: Energieeffiziente Strassenbeleuchtungseinrichtungen: Lichtausbeute"}
+{"id":"Light_Elect_Appl::HF-008","text":"Aussenbeleuchtung: Energieeffiziente Strassenbeleuchtungseinrichtungen: Kompatibilität mit Dimmsteuerungen"}
+{"id":"Light_Elect_Appl::HF-009","text":"Aussenbeleuchtung: Energieeffiziente Strassenbeleuchtungseinrichtungen: Mindestdimmleistung"}
+{"id":"Light_Elect_Appl::HF-010","text":"Aussenbeleuchtung: Energieeffiziente Strassenbeleuchtungseinrichtungen: Indikator für den jährlichen Energieverbrauch"}
+{"id":"Light_Elect_Appl::HF-011","text":"Aussenbeleuchtung: Energieeffiziente Strassenbeleuchtungseinrichtungen: Messung"}
+{"id":"Light_Elect_Appl::HF-012","text":"Aussenbeleuchtung: Energieeffiziente Strassenbeleuchtungseinrichtungen: Leistungsfaktor"}
+{"id":"Light_Elect_Appl::HF-013","text":"Aussenbeleuchtung: Energieeffiziente Strassenbeleuchtungseinrichtungen: Verstärkte Lichtausbeute"}
+{"id":"Light_Elect_Appl::HF-014","text":"Aussenbeleuchtung: Energieeffiziente Strassenbeleuchtungseinrichtungen: Verstärkter Indikator für den jährlichen Energieverbrauch (AECI)"}
+{"id":"Light_Elect_Appl::HF-015","text":"Aussenbeleuchtung: Lichtsignalanlagen: Dimmsteuerungen"}
+{"id":"Light_Elect_Appl::HF-016","text":"Aussenbeleuchtung: Lichtsignalanlagen: Lebenszykluskosten"}
+{"id":"Light_Elect_Appl::HF-017","text":"Innenbeleuchtung: Kreislaufwirtschaft"}
+{"id":"Light_Elect_Appl::HF-018","text":"Innen- und Aussenbeleuchtung: Reparatur"}
+{"id":"Light_Elect_Appl::HF-019","text":"Aussenbeleuchtung: Qualitativ hochwertige und haltbare Strassenbeleuchtungseinrichtungen: Bereitstellung von Anleitungen"}
+{"id":"Light_Elect_Appl::HF-020","text":"Aussenbeleuchtung: Qualitativ hochwertige und haltbare Strassenbeleuchtungseinrichtungen: Ausfallquote von Steuergeräten"}
+{"id":"Light_Elect_Appl::HF-021","text":"Aussenbeleuchtung: Qualitativ hochwertige und haltbare Strassenbeleuchtungseinrichtungen: Erweiterte Garantie"}
+{"id":"Light_Elect_Appl::HF-022","text":"Aussenbeleuchtung: Lichtsignalanlagen: Produktlebensdauer, Ersatzteile und Garantie"}
+{"id":"Light_Elect_Appl::HF-023","text":"Aussenbeleuchtung: Lichtsignalanlagen: Erweiterte Garantie"}
+{"id":"Light_Elect_Appl::HF-024","text":"Innen- und Aussenbeleuchtung: Modularität"}
+{"id":"Light_Elect_Appl::HF-025","text":"Innen- und Aussenbeleuchtung: Minimierung des Materialeinsatzes"}
+{"id":"Light_Elect_Appl::HF-026","text":"Innen- und Aussenbeleuchtung: Eigentumserhalt"}
+{"id":"Light_Elect_Appl::HF-027","text":"Innen- und/oder Aussenbeleuchtung: Recycling und Verwertung"}
+{"id":"Light_Elect_Appl::HF-028","text":"Aussenbeleuchtung: Strassenbeleuchtungseinrichtungen mit geringer Lichtverschmutzung: Anteil des nach oben abgegebenen Lichts (RULO) und Abfalllicht"}
+{"id":"Light_Elect_Appl::HF-029","text":"Aussenbeleuchtung: Strassenbeleuchtungseinrichtungen mit geringer Lichtverschmutzung: Belästigung"}
+{"id":"Light_Elect_Appl::HF-030","text":"Aussenbeleuchtung: Strassenbeleuchtungseinrichtungen mit geringer Lichtverschmutzung: Ökologische Lichtverschmutzung und Sternsichtbarkeit"}
+{"id":"Light_Elect_Appl::HF-031","text":"Aussenbeleuchtung: Qualitativ hochwertige und haltbare Strassenbeleuchtungseinrichtungen: Eindringschutzklasse"}
+{"id":"Light_Elect_Appl::HF-032","text":"Anlagen (materialintensive Anlagen wie Photovoltaik, Elektro-Ladestationen für E-Fahrzeuge, Wärmepumpen, o.ä.): Instandhaltung und Reparatur"}
+{"id":"Light_Elect_Appl::HF-033","text":"Anlage (materialintensive Anlagen wie Photovoltaik, Elektro-Ladestationen für E-Fahrzeuge, Wärmepumpen, o.ä.): Aufbereitung/secondhand-Variante"}
+{"id":"Light_Elect_Appl::HF-034","text":"Anlagen (materialintensive Anlagen wie Photovoltaik, Elektro-Ladestationen für E-Fahrzeuge, Wärmepumpen, o.ä.): Rücknahme"}
+{"id":"Light_Elect_Appl::HF-035","text":"Anlagen(materialintensive Anlagen wie Photovoltaik, Elektro-Ladestationen für E-Fahrzeuge, Wärmepumpen, o.ä.): Verwertung"}
+{"id":"Light_Elect_Appl::HF-036","text":"Anlagen (materialintensive Anlagen wie Photovoltaik, Elektro-Ladestationen für E-Fahrzeuge, Wärmepumpen, o.ä.): Kreislaufwirtschafts-Produktdesign"}
+{"id":"Light_Elect_Appl::HF-037","text":"Anlagen (materialintensive Anlagen wie Photovoltaik, Elektro-Ladestationen für E-Fahrzeuge, Wärmepumpen, o.ä.): Minimierung des Materialeinsatzes"}
+{"id":"Light_Elect_Appl::HF-038","text":"Anlagen (materialintensive Anlagen wie Photovoltaik, Elektro-Ladestationen für E-Fahrzeuge, Wärmepumpen, o.ä.): Eigentumserhalt"}
+{"id":"Light_Elect_Appl::HF-039","text":"Elektrogeräte: Backöfen und Kochfelder"}
+{"id":"Light_Elect_Appl::HF-040","text":"Elektrogeräte: Dunstabzugshauben"}
+{"id":"Light_Elect_Appl::HF-041","text":"Elektrogeräte: Geschirrspüler"}
+{"id":"Light_Elect_Appl::HF-042","text":"Elektrogeräte: Kaffeemaschinen"}
+{"id":"Light_Elect_Appl::HF-043","text":"Elektrogeräte: Kühl- und Gefriergeräte"}
+{"id":"Light_Elect_Appl::HF-044","text":"Elektrogeräte: Wäschetrockner"}
+{"id":"Light_Elect_Appl::HF-045","text":"Elektrogeräte: Waschmaschinen"}
+{"id":"Light_Elect_Appl::HF-046","text":"Geräte für Gartenbau und Forstwirtschaft: Antriebsart: Benzin oder E-Geräte"}
+{"id":"Light_Elect_Appl::HF-047","text":"Geräte für Gartenbau und Forstwirtschaft: Emissionen"}
+{"id":"Light_Elect_Appl::HF-048","text":"Geräte für Gartenbau und Forstwirtschaft: Lärmemissionen"}
+{"id":"Light_Elect_Appl::HF-049","text":"Geräte für Gartenbau und Forstwirtschaft: Materialanforderungen"}
+{"id":"Light_Elect_Appl::HF-050","text":"Geräte für Gartenbau und Forstwirtschaft: Lebens- und Garantiedauer von Gerät und Akku"}
+{"id":"Light_Elect_Appl::HF-051","text":"Geräte für Gartenbau und Forstwirtschaft: Reparatur/Service"}
+{"id":"Light_Elect_Appl::HF-052","text":"Geräte für Gartenbau und Forstwirtschaft: Lebensende/Entsorgung"}
+{"id":"Paper_and_Stationery::HF-001","text":"Recyclingfasern (Recyclingpapier)"}
+{"id":"Paper_and_Stationery::HF-002","text":"Chemikalien"}
+{"id":"Paper_and_Stationery::HF-003","text":"Weissgrad (Recyclingpapier)"}
+{"id":"Paper_and_Stationery::HF-004","text":"Duftstoffe (gilt nur für Hygienepapier aus Recyclingfasern)"}
+{"id":"Paper_and_Stationery::HF-005","text":"Rohstoff (Frischfaserpapier)"}
+{"id":"Paper_and_Stationery::HF-006","text":"Materialien (Hefte, Ordner, Trennblätter)"}
+{"id":"Paper_and_Stationery::HF-007","text":"Materialien (Umschläge, Versandtaschen)"}
+{"id":"Paper_and_Stationery::HF-008","text":"Materialien (Sicht- und Prospekthüllen)"}
+{"id":"Paper_and_Stationery::HF-009","text":"Materialien (Haftnotizen)"}
+{"id":"Paper_and_Stationery::HF-010","text":"Wiederverwendbarkeit (Haftnotizen)"}
+{"id":"Paper_and_Stationery::HF-011","text":"Materialien (Marker, Farbstifte (nass), Faserschreiber, Fineliner, Kugelschreiber, Gelroller, Tintenroller, inklusive Nachfüllsystemen und Minen)"}
+{"id":"Paper_and_Stationery::HF-012","text":"Lackierung (Marker, Farbstifte (nass), Faserschreiber, Fineliner, Kugelschreiber, Gelroller, Tintenroller, inklusive Nachfüllsystemen und Minen)"}
+{"id":"Paper_and_Stationery::HF-013","text":"Nachfüllbarkeit (Marker, Farbstifte (nass), Faserschreiber, Fineliner, Kugelschreiber, Gelroller, Tintenroller, inklusive Nachfüllsystemen und Minen)"}
+{"id":"Paper_and_Stationery::HF-014","text":"Materialien (Farbstifte, Bleistifte, Textmarker (trocken))"}
+{"id":"Paper_and_Stationery::HF-015","text":"Lackierung (Farbstifte, Bleistifte, Textmarker (trocken))"}
+{"id":"Paper_and_Stationery::HF-016","text":"Materialien (Textstempel)"}
+{"id":"Paper_and_Stationery::HF-017","text":"Lackierung (Textstempel)"}
+{"id":"Paper_and_Stationery::HF-018","text":"Wiederverwendbarkeit (Textstempel)"}
+{"id":"Paper_and_Stationery::HF-019","text":"Austauschbarkeit (Textstempel)"}
+{"id":"Paper_and_Stationery::HF-020","text":"Materialien (Korrekturmittel (Stifte, Roller, Band))"}
+{"id":"Paper_and_Stationery::HF-021","text":"Nachfüllbarkeit (Korrekturmittel (Stifte, Roller, Band))"}
+{"id":"Paper_and_Stationery::HF-022","text":"Materialien (Klebstoffe)"}
+{"id":"Paper_and_Stationery::HF-023","text":"Haltbarkeit (Klebstoffe)"}
+{"id":"Paper_and_Stationery::HF-024","text":"Abwaschbarkeit (Klebstoffe)"}
+{"id":"Paper_and_Stationery::HF-025","text":"Materialien (Klebeband, Packband)"}
+{"id":"Paper_and_Stationery::HF-026","text":"Materialien (Scheren)"}
+{"id":"Paper_and_Stationery::HF-027","text":"Verträglichkeit (Scheren)"}
+{"id":"Paper_and_Stationery::HF-028","text":"Langlebigkeit (Scheren)"}
+{"id":"Paper_and_Stationery::HF-029","text":"Materialien (Haftgeräte, Heftzangen und Locher)"}
+{"id":"Paper_and_Stationery::HF-030","text":"Langlebigkeit (Haftgeräte, Heftzangen und Locher)"}
+{"id":"Paper_and_Stationery::HF-031","text":"Innovation (Locher)"}
+{"id":"Print_Services::HF-001","text":"Umweltmanagementsystem"}
+{"id":"Print_Services::HF-002","text":"Energiemanagementsystem"}
+{"id":"Print_Services::HF-003","text":"Qualitätsmanagementsystem"}
+{"id":"Print_Services::HF-004","text":"Papier: Recyclingfasern/Anteil Rezyklat"}
+{"id":"Print_Services::HF-005","text":"Papier: Bleichmittel/Materialgesundheit Papier"}
+{"id":"Print_Services::HF-006","text":"Druckfarben und Druckhilfsmittel: Chemikalien/Materialgesundheit Druckfarben"}
+{"id":"Print_Services::HF-007","text":"Druckfarben und Druckhilfsmittel: Rezyklierbarkeit"}
+{"id":"Print_Services::HF-008","text":"Druckfarben und Druckhilfsmittel: Rohstoffe"}
+{"id":"Print_Services::HF-009","text":"CO2-Emissionen, Klima, Energie: CO2-Emissionen"}
+{"id":"Print_Services::HF-010","text":"CO2-Emissionen, Klima, Energie: Erneuerbare Energien"}
+{"id":"Print_Services::HF-011","text":"Schadstoffemissionen: VOC"}
+{"id":"Print_Services::HF-012","text":"Schadstoffemissionen: Feinstaub"}
+{"id":"Print_Services::HF-013","text":"Abfall/ Entsorgung: Abfall und Recycling"}
+{"id":"Print_Services::HF-014","text":"Qualität: Schulungen"}
+{"id":"Print_Services::HF-015","text":"Kreislaufwirtschafts-Produktdesign"}
+{"id":"Print_Services::HF-016","text":"Verpflichtung zur Wiederverwendung und Reparatur bildgebender Geräte"}
+{"id":"Print_Services::HF-017","text":"Zerlegungs- und reparaturgerechte Konstruktion bildgebender Geräte"}
+{"id":"Print_Services::HF-018","text":"Energieeffizienz der bildgebenden Geräte"}
+{"id":"Print_Services::HF-019","text":"Duplex-Bildgebung und N-up-Druck"}
+{"id":"Print_Services::HF-020","text":"Eignung der bildgebenden Geräte zur Verwendung von Recyclingpapier"}
+{"id":"Print_Services::HF-021","text":"Recyclinggerechte Konstruktion bildgebender Geräte"}
+{"id":"Print_Services::HF-022","text":"Eignung der Geräte zur Verwendung wiederaufbereiteter Kartuschen und Behälter"}
+{"id":"Print_Services::HF-023","text":"Reduzierte Anzahl an Materialien/Minimierung des Materialeinsatzes"}
+{"id":"Print_Services::HF-024","text":"reduzierte anzahl an materialien/minimierung des materialeinsatzes"}
+{"id":"Print_Services::HF-025","text":"informationen ueber verwendete recycelte post-consumer-kunststoffe"}
+{"id":"Print_Services::HF-026","text":"Verfügbarkeit von Ersatzteilen"}
+{"id":"Print_Services::HF-027","text":"Geräuschemissionen"}
+{"id":"Print_Services::HF-028","text":"besonders besorgniserregende stoffe und gehalt an gefaehrlichen stoffen (gehaeuse/gehaeuseteile)"}
+{"id":"Print_Services::HF-029","text":"Überwachung der Firmwareaktualisierung"}
+{"id":"Print_Services::HF-030","text":"Gewährleistung"}
+{"id":"Print_Services::HF-031","text":"seitenleistung der kartuschen/behaelter (anzahl gedruckte seiten mit fuellung einer druckerpatrone)"}
+{"id":"Print_Services::HF-032","text":"ressourceneffizienz der masse des verbrauchsmaterials"}
+{"id":"Print_Services::HF-033","text":"wiederverwendungs-/wiederaufbereitungsgerechte konstruktion der kartuschen oder behaelter"}
+{"id":"Print_Services::HF-034","text":"qualitaet des verbrauchsmaterials"}
+{"id":"Print_Services::HF-035","text":"ende der lebensdauer"}
+{"id":"Print_Services::HF-036","text":"Erbringung von verwalteten Druckdienstleistungen"}
+{"id":"Product_Independent_Criteria::HF-001","text":"Internationale Norm für nachhaltige Beschaffung ISO-Norm 20400:2017"}
+{"id":"Product_Independent_Criteria::HF-002","text":"Umweltmanagement ISO 14001 oder gleichwertig"}
+{"id":"Product_Independent_Criteria::HF-003","text":"Lebenszykluskosten (LCC)"}
+{"id":"Product_Independent_Criteria::HF-004","text":"Total Cost of Ownership (TCO)"}
+{"id":"Product_Independent_Criteria::HF-005","text":"CO2-Bilanz"}
+{"id":"Product_Independent_Criteria::HF-006","text":"Ressourcenschonung"}
+{"id":"Product_Independent_Criteria::HF-007","text":"Energieeffizienz"}
+{"id":"Product_Independent_Criteria::HF-008","text":"Gefährliche Stoffe"}
+{"id":"Product_Independent_Criteria::HF-009","text":"Langlebigkeit und Reparierbarkeit"}
+{"id":"Product_Independent_Criteria::HF-010","text":"Kreislaufwirtschaft"}
+{"id":"Product_Independent_Criteria::HF-011","text":"Wasserverbrauch"}
+{"id":"Product_Independent_Criteria::HF-012","text":"Umweltfreundliche Produkte"}
+{"id":"Product_Independent_Criteria::HF-013","text":"Verpackung"}
+{"id":"Product_Independent_Criteria::HF-014","text":"Strom"}
+{"id":"Product_Independent_Criteria::HF-015","text":"Tierwohl"}
+{"id":"Product_Independent_Criteria::HF-016","text":"Nachhaltigkeit: Allgemein"}
+{"id":"Product_Independent_Criteria::HF-017","text":"Soziale Nachhaltigkeit: Allgemein"}
+{"id":"Product_Independent_Criteria::HF-018","text":"Arbeitsbedingungen"}
+{"id":"Product_Independent_Criteria::HF-019","text":"Lohngleichheit"}
+{"id":"Product_Independent_Criteria::HF-020","text":"ILO-Konventionen"}
+{"id":"Product_Independent_Criteria::HF-021","text":"Sozial-Standard-Initiativen"}
+{"id":"Product_Independent_Criteria::HF-022","text":"Auditberichte"}
+{"id":"Product_Independent_Criteria::HF-023","text":"Fair Trade"}
+{"id":"Product_Independent_Criteria::HF-024","text":"Lieferketten"}
+{"id":"Product_Independent_Criteria::HF-025","text":"Konzepte"}
+{"id":"Product_Independent_Criteria::HF-026","text":"Integration"}
+{"id":"Product_Independent_Criteria::HF-027","text":"Einhaltung ökologischer Mindestvorschriften im Inland"}
+{"id":"Product_Independent_Criteria::HF-028","text":"Einhaltung ökologischer Mindestvorschriften im Ausland"}
+{"id":"Product_Independent_Criteria::HF-029","text":"Qualitätsmanagement ISO 9001 oder gleichwertig"}
+{"id":"Road_Transport::HF-001","text":"Qualitätsmanagement ISO 9001"}
+{"id":"Road_Transport::HF-002","text":"Umweltmanagement ISO 14001"}
+{"id":"Road_Transport::HF-003","text":"Busse und Kommunalfahrzeuge: Ersatzteile"}
+{"id":"Road_Transport::HF-004","text":"Busse und Kommunalfahrzeuge: Hersteller-Garantie"}
+{"id":"Road_Transport::HF-005","text":"Busse und Kommunalfahrzeuge: Bereifung"}
+{"id":"Road_Transport::HF-006","text":"Busse und Kommunalfahrzeuge: Gänge\n(nicht relevant für Automatikfahrzeuge und Elektrofahrzeuge)"}
+{"id":"Road_Transport::HF-007","text":"Busse und Kommunalfahrzeuge: Energieverbrauchsanzeige"}
+{"id":"Road_Transport::HF-008","text":"Busse und Kommunalfahrzeuge: Lackierung und Beschichtung"}
+{"id":"Road_Transport::HF-009","text":"Stadtbusse: Antriebsart"}
+{"id":"Road_Transport::HF-010","text":"Fahrzeuge für den Materialtransport: CO2-Emissionen (g/km) (nach WLTP: Worldwide Harmonized Light-Duty Vehicles Test Procedure oder NEFZ: Neuer Europäischer Fahrzyklus)"}
+{"id":"Road_Transport::HF-011","text":"Fahrzeuge für den Materialtransport: Luftschadstoffe"}
+{"id":"Road_Transport::HF-012","text":"Nutzfahrzeuge (Busse und Lastkraftwagen, einschliesslich Abfallfahrzeuge, Fahrzeuge für Materialtransport): Auspuffrohr (Einbauort)"}
+{"id":"Road_Transport::HF-013","text":"Fahrzeuge für den Materialtransport: Gase in Klimaanlagen"}
+{"id":"Road_Transport::HF-014","text":"Busse und Kommunalfahrzeuge: Elektrofahrzeuge: Akku-Garantiedauer"}
+{"id":"Road_Transport::HF-015","text":"Busse und Kommunalfahrzeuge: Elektrofahrzeuge: Akku-Rücknahme"}
+{"id":"Road_Transport::HF-016","text":"Busse und Kommunalfahrzeuge: Elektrofahrzeuge: Rekuperation der Bremsenergie"}
+{"id":"Road_Transport::HF-017","text":"Nutzfahrzeuge (Busse und Lastkraftwagen, einschliesslich Abfallfahrzeuge): Technologische Verbesserung zur Senkung der THG-Emissionen"}
+{"id":"Road_Transport::HF-018","text":"Nutzfahrzeuge (Busse und Lastkraftwagen, einschliesslich Abfallfahrzeuge): Luftschadstoffe"}
+{"id":"Road_Transport::HF-019","text":"Nutzfahrzeuge (Busse und Lastkraftwagen, einschliesslich Abfallfahrzeuge): Klimaanlage"}
+{"id":"Road_Transport::HF-020","text":"Nutzfahrzeuge (Busse und Lastkraftwagen, einschliesslich Abfallfahrzeuge): Nebenmotoren/Nebenaggregate"}
+{"id":"Road_Transport::HF-021","text":"Personenwagen (PW) und leichte Nutzfahrzeuge: Servicestelle"}
+{"id":"Road_Transport::HF-022","text":"Personenwagen (PW) und leichte Nutzfahrzeuge: CO2-Emissionen"}
+{"id":"Road_Transport::HF-023","text":"Personenwagen (PW) und leichte Nutzfahrzeuge: NOx- und Feinstaubemissionen"}
+{"id":"Road_Transport::HF-024","text":"Personenwagen (PW) und leichte Nutzfahrzeuge: Luftschadstoffemissionen"}
+{"id":"Road_Transport::HF-025","text":"Personenwagen (PW) und leichte Nutzfahrzeuge: Fähigkeit, ohne Auspuffemissionen betrieben zu werden"}
+{"id":"Road_Transport::HF-026","text":"Personenwagen (PW) und leichte Nutzfahrzeuge: Lärmemissionen"}
+{"id":"Road_Transport::HF-027","text":"Personenwagen (PW) und leichte Nutzfahrzeuge: Ersatzteile"}
+{"id":"Road_Transport::HF-028","text":"Personenwagen (PW) und leichte Nutzfahrzeuge: Garantiedauer"}
+{"id":"Road_Transport::HF-029","text":"Personenwagen (PW) und leichte Nutzfahrzeuge: Bereifung"}
+{"id":"Road_Transport::HF-030","text":"Personenwagen (PW) und leichte Nutzfahrzeuge: Gänge\n(Nicht relevant für Automatikfahrzeuge und Elektrofahrzeuge"}
+{"id":"Road_Transport::HF-031","text":"Personenwagen (PW) und leichte Nutzfahrzeuge: Energieverbrauchsanzeige"}
+{"id":"Road_Transport::HF-032","text":"Elektroautos: Personenwagen (PW) und leichte Nutzfahrzeuge: Akku-Garantiedauer"}
+{"id":"Road_Transport::HF-033","text":"Elektroautos: Personenwagen (PW) und leichte Nutzfahrzeuge: Akku-Rücknahme"}
+{"id":"Road_Transport::HF-034","text":"Elektroautos: Personenwagen (PW) und leichte Nutzfahrzeuge: Rekuperation der Bremsenergie"}
+{"id":"Road_Transport::HF-035","text":"Personenwagen (PW) und leichte Nutzfahrzeuge: Verkehrsinformationen und Routenoptimierung"}
+{"id":"Road_Transport::HF-036","text":"Personenwagen (PW) und leichte Nutzfahrzeuge: Mindestgewährleistung für Batterien"}
+{"id":"Road_Transport::HF-037","text":"Personenwagen (PW) und leichte Nutzfahrzeuge: Energieeffizienz"}
+{"id":"Road_Transport::HF-038","text":"Personenwagen (PW) und leichte Nutzfahrzeuge: Geschwindigkeitsbegrenzer"}
+{"id":"Road_Transport::HF-039","text":"Soziale Dimension der Nachhaltigkeit"}
+{"id":"Road_Transport::HF-040","text":"Fahrzeuge: Instandhaltung & Reparatur"}
+{"id":"Road_Transport::HF-041","text":"Fahrzeuge: Modularität der Batterie"}
+{"id":"Road_Transport::HF-042","text":"Fahrzeuge: Verfügbarkeit von Gebrauchtfahrzeugen"}
+{"id":"Road_Transport::HF-043","text":"Fahrzeuge: Minimierung des Materialeinsatzes"}
+{"id":"Road_Transport::HF-044","text":"Fahrzeuge: Verwertung"}
+{"id":"Road_Transport::HF-045","text":"Fahrzeuge: Eigentumserhalt"}
+{"id":"Road_Transport::HF-046","text":"Strassenbeleuchtung: Kompetenz des Planungsteams"}
+{"id":"Road_Transport::HF-047","text":"Strassenbeleuchtung: Kompetenz des Installationsteams"}
+{"id":"Road_Transport::HF-048","text":"Energieeffiziente Strassenbeleuchtungseinrichtungen: Lichtausbeute"}
+{"id":"Road_Transport::HF-049","text":"Energieeffiziente Strassenbeleuchtungseinrichtungen: Kompatibilität mit Dimmsteuerungen"}
+{"id":"Road_Transport::HF-050","text":"Energieeffiziente Strassenbeleuchtungseinrichtungen: Mindestdimmleistung"}
+{"id":"Road_Transport::HF-051","text":"Energieeffiziente Strassenbeleuchtungseinrichtungen: Indikator für den jährlichen Energieverbrauch (AECI)"}
+{"id":"Road_Transport::HF-052","text":"Energieeffiziente Strassenbeleuchtungseinrichtungen: Messung"}
+{"id":"Road_Transport::HF-053","text":"Energieeffiziente Strassenbeleuchtungseinrichtungen: Leistungsfaktor"}
+{"id":"Road_Transport::HF-054","text":"Strassenbeleuchtungseinrichtungen mit geringer Lichtverschmutzung: Anteil des nach oben abgegebenen Lichts (RULO) und Abfalllicht"}
+{"id":"Road_Transport::HF-055","text":"Strassenbeleuchtungseinrichtungen mit geringer Lichtverschmutzung: Belästigung"}
+{"id":"Road_Transport::HF-056","text":"Strassenbeleuchtungseinrichtungen mit geringer Lichtverschmutzung: Ökologische Lichtverschmutzung und Sternsichtbarkeit"}
+{"id":"Textiles::HF-001","text":"Sozialmanagement"}
+{"id":"Textiles::HF-002","text":"Lieferkettenmanagement"}
+{"id":"Textiles::HF-003","text":"Faserrohstoffe: Baumwollfasern"}
+{"id":"Textiles::HF-004","text":"Faserrohstoffe: Wollfasern (Anteil im Textil >50%)"}
+{"id":"Textiles::HF-005","text":"Faserrohstoffe: Regenerierte Zellulosefasern (z.B. Viskose, Modal, Lyocell)"}
+{"id":"Textiles::HF-006","text":"Faserrohstoffe: Polyester und Nylonfaser, Recycling"}
+{"id":"Textiles::HF-007","text":"Verwendungsbeschränkung für Chemikalien (Schadstofffreiheit)"}
+{"id":"Textiles::HF-008","text":"Produktionsprozess"}
+{"id":"Textiles::HF-009","text":"Beständigkeit und Verlängerung der Lebensdauer: Beständigkeitsstandards"}
+{"id":"Textiles::HF-010","text":"Beständigkeit und Verlängerung der Lebensdauer: Verfügbarkeit von Zubehör und Accessoires"}
+{"id":"Textiles::HF-011","text":"Energieeinsparung bei Gebrauch: Reduktion des Energieverbrauchs beim Trocknen und Bügeln durch entsprechende Stoffauswahl"}
+{"id":"Textiles::HF-012","text":"Energieeinsparung bei Gebrauch: Pflegekennzeichnung"}
+{"id":"Textiles::HF-013","text":"Auf Wiederverwendung und Recycling ausgerichtete Gestaltung"}
+{"id":"Textiles::HF-014","text":"Rücknahmesystem"}
+{"id":"Textiles::HF-015","text":"Verwertungskonzept"}
+{"id":"Textiles::HF-016","text":"Erneuerbare Energien"}
+{"id":"Textiles::HF-017","text":"CO2-Emissionen"}
+{"id":"Textiles::HF-018","text":"Sammlung: Beschaffenheit der Container"}
+{"id":"Textiles::HF-019","text":"Sammlung"}
+{"id":"Textiles::HF-020","text":"Sortierung und Verwertung"}
+{"id":"Textiles::HF-021","text":"Warenfluss/Protokoll/Berichterstattung"}
+{"id":"Textiles::HF-022","text":"Einnahmen: Karitative Vergütung"}
+{"id":"Textiles::HF-023","text":"Soziale Kriterien"}
+{"id":"Textiles::HF-024","text":"Transport"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-001","text":"Sammlung, Sortierung und Verwertung von Altpapier und Altkarton: Sammelfahrzeuge"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-002","text":"Sammlung, Sortierung und Verwertung von Altpapier und Altkarton: Lärmschutz"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-003","text":"Sammlung, Sortierung und Verwertung von Altpapier und Altkarton: Beschaffenheit der Container"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-004","text":"Sammlung, Sortierung und Verwertung von Altpapier und Altkarton: Mengennachweis"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-005","text":"Sammlung, Sortierung und Verwertung von Altpapier und Altkarton: CO2-Emissionen"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-006","text":"Müllentleerung und Sortierung"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-007","text":"Umweltbelastung der Verwertungsanlage"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-008","text":"Sammlung: Transport vom Sammelort bis zur Verwertung"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-009","text":"Reinigungsmittel: Umweltschädigung"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-010","text":"Reinigungsmittel: Dosierhilfen"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-011","text":"Reinigungsmittel: Synthetische Duftstoffe"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-012","text":"Reinigungsmittel: Material Behälter"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-013","text":"Reinigungshilfsmittel und -zubehör"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-014","text":"Reinigungskonzept"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-015","text":"Umweltmanagement"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-016","text":"Verbrauchsgüter: Anforderungen"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-017","text":"Verbrauchsgüter: Dokumentation"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-018","text":"Staubsauger"}
+{"id":"Wastepaper_Cleaning_Refuse::HF-019","text":"Schulung des Reinigungspersonals"}

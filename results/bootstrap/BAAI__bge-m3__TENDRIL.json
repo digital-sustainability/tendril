@@ -1,0 +1,67 @@
+{
+  "system_a": "results/predictions/BAAI__bge-m3",
+  "system_b": "results/predictions/BAAI__bge-m3__TENDRIL",
+  "dataset": {
+    "repo": "IntelliProcure/TENDRIL",
+    "revision": "15eef0bc165cd9eb8a467ea53712dc67ca2a9685"
+  },
+  "unit": "project",
+  "iterations": 10000,
+  "seed": 0,
+  "percentiles": [
+    2.5,
+    97.5
+  ],
+  "comparisons": [
+    {
+      "metric": "ndcg_at_10",
+      "mean_a": 0.49159979057760195,
+      "mean_b": 0.6006297779919771,
+      "difference": 0.1090299874143752,
+      "lower": 0.07618295971975023,
+      "upper": 0.14094557396855303,
+      "p_b_not_better": 0.0,
+      "p_two_sided": 0.0
+    },
+    {
+      "metric": "precision_at_10",
+      "mean_a": 0.17492659138847297,
+      "mean_b": 0.21452983623349145,
+      "difference": 0.03960324484501848,
+      "lower": 0.02876265291640923,
+      "upper": 0.050465330629289595,
+      "p_b_not_better": 0.0,
+      "p_two_sided": 0.0
+    },
+    {
+      "metric": "recall_at_10",
+      "mean_a": 0.6372149801871491,
+      "mean_b": 0.7551547827433743,
+      "difference": 0.11793980255622527,
+      "lower": 0.07999531320717522,
+      "upper": 0.16170058888630062,
+      "p_b_not_better": 0.0,
+      "p_two_sided": 0.0
+    },
+    {
+      "metric": "map_at_10",
+      "mean_a": 0.3743643384980108,
+      "mean_b": 0.48704251223978934,
+      "difference": 0.11267817374177852,
+      "lower": 0.0794919501430904,
+      "upper": 0.14516177814435133,
+      "p_b_not_better": 0.0,
+      "p_two_sided": 0.0
+    },
+    {
+      "metric": "mrr_at_10",
+      "mean_a": 0.5255265019287565,
+      "mean_b": 0.6066141849096021,
+      "difference": 0.08108768298084557,
+      "lower": 0.033946255814174243,
+      "upper": 0.12498534989712,
+      "p_b_not_better": 0.0005,
+      "p_two_sided": 0.001
+    }
+  ]
+}

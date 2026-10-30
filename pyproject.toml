@@ -1,0 +1,67 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tendril"
+version = "0.1.0"
+description = "TENDRIL: a retrieval benchmark for sustainability requirements in Swiss public procurement"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=5.0.1",
+    "loguru>=0.7.3",
+    "mteb[bm25s,google-genai,openai,voyageai]>=2.21.0",
+    "openai>=2.15.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "pyarrow>=25.0.1",
+    "python-dotenv>=1.2.3",
+    "rich>=14.0.0",
+    "scikit-learn>=1.9.0",
+    "tqdm>=4.70.0",
+    "torch==2.6.0",
+    "matplotlib>=3.11.2",
+    "seaborn>=0.13.2",
+    "responsible-request",
+    "gheim[local]>=0.1.7",
+    "huggingface-hub>=1.32.0",
+    "krippendorff>=0.8.2",
+    "orjson>=3.12.0",
+    "pydantic>=2.13.4",
+    "pygamma-agreement>=0.5.9",
+    "pyyaml>=6.0.3",
+    "sentence-transformers>=6.0.1,<7",
+    "zstandard>=0.25.0",
+]
+
+# Pin PyTorch to a CUDA 12.4 build on Linux. The default (PyPI) torch wheel is a
+# CUDA 13.0 build that the Ubuntu server's NVIDIA driver 550.144.03 (CUDA 12.4)
+# cannot run, so torch silently falls back to CPU. cu124 matches the driver
+# exactly. macOS has no CUDA wheels, so Darwin uses the default PyPI torch
+# (CPU/MPS).
+[tool.uv]
+required-environments = [
+    "sys_platform == 'darwin' and platform_machine == 'arm64'",
+    "sys_platform == 'linux' and platform_machine == 'x86_64'",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true
+
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cu124", marker = "sys_platform == 'linux'" },
+]
+responsible-request = { git = "https://github.com/digital-sustainability/ResponsibleRequest.git" }
+
+[dependency-groups]
+training = [
+    "accelerate>=1.0",
+    "torch==2.6.0; sys_platform == 'linux'",
+]
+dev = [
+    "pytest>=8",
+]

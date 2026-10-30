@@ -1,0 +1,50 @@
+{
+  "experiment": "prompt_length_shortest",
+  "run_id": "439b6f76dcaa",
+  "started_at": "2026-10-01T13:08:01+00:00",
+  "prompt_id": "guidelines_de_shortest",
+  "prompt_sha256": "8732fe851c9dae6a78c7baf250ceebc3f41defb3e69c6ee96f0bd7c7ba8d43a3",
+  "hyperparams": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "frequency_penalty": 0.5,
+    "presence_penalty": 0.0,
+    "max_tokens": 8192
+  },
+  "models": [
+    {
+      "name": "z-ai/glm-5.3-flash-low",
+      "client": "openrouter",
+      "model": "z-ai/glm-5.3-flash",
+      "reasoning": {
+        "effort": "low"
+      }
+    }
+  ],
+  "targets": [
+    "area",
+    "criterion"
+  ],
+  "query_representations": [
+    "llm_summary"
+  ],
+  "n_excerpts": 1425,
+  "max_samples": null,
+  "max_concurrent_models": 1,
+  "n_tasks": 2850,
+  "n_pending": 2850,
+  "finished_at": "2026-10-01T13:13:48+00:00",
+  "wall_time_s": 347.2,
+  "stats": {
+    "z-ai/glm-5.3-flash-low": {
+      "requested": 2850,
+      "succeeded": 2850,
+      "parse_failures": 0,
+      "errors": 0,
+      "completion_tokens": 37651,
+      "cost": 0.2818511,
+      "truncated": 0,
+      "total_latency_s": 966781.425576657
+    }
+  }
+}

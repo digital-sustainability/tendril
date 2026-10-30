@@ -1,0 +1,20 @@
+TENDRIL most-embed-de
+Copyright 2026 Institute for Public Sector Transformation, Bern University of Applied Sciences
+
+This model is an adapted version of malteos/most-embed-de
+(https://huggingface.co/malteos/most-embed-de). The fine-tuning contribution of most-embed-de is
+licensed under the Creative Commons Attribution-NonCommercial 4.0 International License
+(CC-BY-NC-4.0, https://creativecommons.org/licenses/by-nc/4.0/).
+
+most-embed-de is built on nvidia/Nemotron-3-Embed-1B-BF16
+(https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16), licensed under the OpenMDW License
+Agreement v1.1 (https://openmdw.ai/license/1-1/), which in turn was derived from
+mistralai/Ministral-3-3B-Instruct-2512, licensed under the Apache License, Version 2.0.
+The notices of origin of these models are retained.
+
+Modifications: all weights were further fine-tuned for German passage retrieval in Swiss public
+procurement tenders, using the LLM-judged TENDRIL-Train data. The tokenizer, architecture, pooling
+and prompts of most-embed-de are unchanged.
+
+The adapted model is distributed under CC-BY-NC-4.0 (see LICENSE). It may not be used for
+commercial purposes.

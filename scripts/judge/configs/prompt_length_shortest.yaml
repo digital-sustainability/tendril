@@ -1,0 +1,65 @@
+# Prompt-length follow-up: shortest German guidelines.
+# One model from the reasoning-effort sweep: z-ai/glm-5.3-flash at low effort
+# (best mean binary kappa on the LLM-summary area wording).
+# All paths are resolved relative to the repository root unless absolute.
+
+experiment: prompt_length_shortest
+
+dataset:
+  path: data/validation_set_curated.xlsx
+  id_column: sample_id
+  passage_column: sentence_cleaned
+
+prompt:
+  id: guidelines_de_shortest
+  file: prompts/guidelines_de_shortest.txt # relative to scripts/judge
+
+query_representations:
+  - id: llm_summary
+
+targets:
+  area: # area of action (Handlungsfeld)
+    query_column: scope_of_action
+    truth_column: int_rel_area
+    task_instruction: >-
+      Bewerte in dieser Aufgabe ausschliesslich die Relevanz der Textstelle für
+      das Handlungsfeld. Der Bezugstext ist das Handlungsfeld.
+  criterion: # procurement criterion (Kriterium)
+    query_column: criterion_text
+    truth_column: int_rel_criterion
+    task_instruction: >-
+      Bewerte in dieser Aufgabe ausschliesslich die Relevanz der Textstelle für
+      das Nachhaltigkeitskriterium. Der Bezugstext ist das Kriterium.
+    ambition_columns: [ambition_basic, ambition_good, ambition_best]
+    ambition_labels: [Basis, Gute Praxis, Vorbild]
+
+models:
+  - name: z-ai/glm-5.3-flash-low
+    client: openrouter
+    model: z-ai/glm-5.3-flash
+    reasoning:
+      effort: low
+
+hyperparams: # same as the model and reasoning-effort sweep
+  temperature: 0.0
+  top_p: 1.0
+  frequency_penalty: 0.5
+  presence_penalty: 0.0
+  max_tokens: 8192
+
+runtime:
+  max_samples: null # set an int (e.g. 10) to test with only the first N excerpts
+  max_workers: 1 # runner fallback; OpenRouter batch runs ignore it
+  max_concurrent_models: 1
+  timeout: 600 # client timeout, seconds
+  max_retries: 4 # SDK retries; the runner retries again with retry_base_sleep
+  retry_base_sleep: 2.0 # exponential backoff base (seconds)
+  batch_chunk_size: 1024 # requests per rr.run_batch; each chunk is checkpointed
+  throttle:
+    mode: fixed
+    max_rpm: 2048
+    max_concurrency: 256
+  # Optional `budget_usd` stops a run; `cache: true` replays logged hits.
+
+paths:
+  results_dir: data/judge/prompt_length/shortest # relative to the repository root

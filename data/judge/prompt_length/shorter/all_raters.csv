@@ -1,0 +1,5 @@
+target,scope,n_raters,n_items,fleiss_kappa_graded,fleiss_kappa_graded_lo,fleiss_kappa_graded_hi,fleiss_kappa_binary,fleiss_kappa_binary_lo,fleiss_kappa_binary_hi,note
+area,"humans (1, 5, 6)",3,1425,0.46642318557778334,0.41691513489429327,0.5112499715273043,0.5264804568281392,0.475294783311194,0.5749319107033941,
+area,LLMs only,1,1425,,,,,,,insufficient raters for Fleiss' kappa (needs >= 3)
+criterion,"humans (1, 5, 6)",3,1425,0.5075543631742445,0.4508237992753293,0.5623315355823705,0.576376696335331,0.515566892349386,0.6365180473653955,
+criterion,LLMs only,1,1425,,,,,,,insufficient raters for Fleiss' kappa (needs >= 3)

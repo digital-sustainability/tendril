@@ -1,0 +1,46 @@
+paths:
+  enriched_projects: data/exports/enriched_projects
+  criteria_payloads: data/exports/june-2026-criteria-v2-payloads.json
+  catalog_comparison: data/exports/catalog_comparison.xlsx
+  output_dir: data/derived/judge
+
+selection:
+  n_projects: 800
+  n_documents_per_project: 5
+  n_criteria_per_area: 1
+  area_quota:
+    relevant_validated: 2
+    relevant_unvalidated: 1
+    unsure: 1
+    irrelevant: 1
+
+eligibility:
+  min_relevant_areas: 1
+  min_passages: 1
+  always_include_catalog: WDG_1-Product_Independent_Criteria
+  require_virtual_area_criterion: true
+
+coverage:
+  min_projects_per_area: 3
+  max_extra_areas_per_project: 2
+
+exclusions:
+  comparison_recommendations:
+    - exclude
+    - exclude_or_review
+  test_project_ids: data/exports/test_project_ids.txt
+
+passage_filters:
+  min_chars: 20
+  max_chars: 5000
+  max_digit_symbol_ratio: 0.60
+  table_min_row_fill: 0.5
+  table_min_distinct_cells: 3
+  table_min_cell_chars: 3
+  repeated_span_min_chars: 40
+  repeated_span_fraction: 0.2
+  max_filename_tokens: 2
+  dedup_ngram: 5
+  dedup_jaccard: 0.7
+
+random_seed: 42

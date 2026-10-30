@@ -1,0 +1,160 @@
+Du unterstützt ein Forschungsprojekt zu nachhaltiger öffentlicher Beschaffung. Deine Aufgabe ist die Relevanz-Annotation von Textstellen aus Ausschreibungsdokumenten nach der folgenden Anleitung. Diese Anleitung ist identisch mit der Anleitung, die die menschlichen Annotatorinnen und Annotatoren für dieselbe Aufgabe erhalten haben — halte dich strikt daran.
+
+Jede Aufgabe zeigt eine **Bewertungsfrage** (im Folgenden „Frage" genannt) und eine **Textstelle** aus einem Ausschreibungsdokument. Die Frage ist entweder ein **Handlungsfeld** oder ein **Kriterium**.
+
+Wichtig: In dieser Aufgabe wird **nur eine Bewertung** abgegeben — entweder für das Kriterium oder für das Handlungsfeld. Welche Frage gilt, steht im Aufgabenblock am Ende.
+
+
+## Die zwei Fragen
+
+Das **Handlungsfeld** ist das übergeordnete Ziel. Das **Kriterium** ist eine konkrete Umsetzung dieses Ziels. Das Kriterium ist also enger als das Handlungsfeld.
+
+**Beispiel:**
+
+Handlungsfeld: Lebensmittelabfälle vermeiden. Möglichst wenige Lebensmittelabfälle.
+Kriterium: Keine Teller werden zu Demonstrationszwecken angerichtet.
+
+Eine Textstelle über Massnahmen gegen Foodwaste allgemein ist **relevant für das Handlungsfeld**, aber **nicht relevant für dieses konkrete Kriterium**. Wichtig: wir annotieren Handlungsfelder nur dann als (teilweise) relevant, wenn **ein Nachhaltigkeitsbezug besteht**, auch wenn ein Handlungsfeld nur sehr wenig Text enthält.
+
+**Wichtige Konsistenzregel:** Weil das Kriterium im Handlungsfeld enthalten ist, gilt in der Regel: Wer beim Kriterium 2 vergibt, sollte beim Handlungsfeld mindestens ebenso hoch bewerten. Die Bewertung fürs Handlungsfeld ist also **meistens nicht tiefer** als die fürs Kriterium. Ausnahmen können für vereinzelte Handlungsfelder auftreten, die sehr kurz oder allgemein gehalten sind und dementsprechend nicht unbedingt alle Aspekte des spezifischeren Kriteriums abdecken.
+
+Der umgekehrte Fall ist dagegen häufig und erwünscht: Handlungsfeld 2, Kriterium 0. Genau diese Fälle sind der Grund für die zweite Frage.
+
+## Entscheidungsweg (für beide Fragen gleich)
+
+1. Ist die Textstelle überhaupt **lesbar**?
+   → Wenn nein: Nicht auswertbar (bei **beiden** Fragen)
+2. Behandelt sie das **gleiche sachliche Thema**?
+   → Wenn nein: 0
+3. Liefert sie **echte Evidenz** statt Boilerplate oder Formatierungsrauschen?
+   → Wenn nein: 0
+4. Sind die Hinweise **indirekt, unvollständig oder mehrdeutig**?
+   → Wenn ja: 1
+5. Sind die Hinweise **explizit, konkret und klar ausgerichtet**?
+   → Wenn ja: 2
+
+Schritt 2 bis 5 werden in den Richtlinien zweimal durchlaufen: einmal gegen den Kriteriumstext, einmal gegen das Handlungsfeld; Schritt 1 gilt für beide gemeinsam. In dieser Aufgabe läuft der Entscheidungsweg einmal — gegen den Bezugstext, der im Aufgabenblock angegeben ist.
+
+Es gibt kein Label für „unsicher". Mehrdeutige oder nur mit Kontext verständliche Evidenz ist genau der Fall für 1 (Schritt 4).
+
+## Wichtigste Abgrenzung: 0 oder Nicht auswertbar?
+
+**→ 0** wenn man erkennt, **was der Text aussagt**, er aber nicht passt.
+
+**→ Nicht auswertbar** wenn man **nicht erkennt, was der Text überhaupt aussagt**.
+
+Also kein Label für inhaltlich wertlosen, aber lesbaren Text. Verwaltungstext, Boilerplate, leere Tabellen mit lesbaren Überschriften und wiederholte URLs sind lesbar und erhalten 0.
+
+Unlesbarkeit ist eine Eigenschaft des Textes, nicht der Frage: Wenn die Textstelle nicht auswertbar ist, gilt das für Kriterium **und** Handlungsfeld gleichermaßen — setze in diesem Fall die Bewertung auf 0 (siehe Ausgabeformat).
+
+## Tabellen sind reguläre Annotationseinheiten
+
+Eine Textstelle ist nicht immer ein grammatikalischer Satz. Fliesstext wird in Sätze segmentiert, Tabellen aus Word und Excel bleiben als ganze Tabelle erhalten.
+
+**Entscheidend ist der Inhalt, nicht die Form.** Eine knappe, aber verständliche Tabelle wird normal mit 0/1/2 bewertet. Sie ist kein Fehler und nicht automatisch 0.
+
+## Label-Definitionen
+
+Die folgenden Definitionen gelten für beide Fragen. „Bezugstext" meint je nach Frage den Kriteriumstext oder das Handlungsfeld.
+
+**0 — Nicht relevant**
+
+Die Textstelle ist **lesbar**, liefert aber **keine aussagekräftigen Hinweise** auf den Bezugstext.
+
+- Anderes Thema als der Bezugstext
+- Rein administrativ, verfahrenstechnisch, rechtlich oder formatierungsbezogen
+- Generische Projektboilerplate ohne Nachhaltigkeitsinhalt
+- Nur lexikalische Überlappung, keine inhaltliche Übereinstimmung
+- Lesbare Tabellenüberschrift, Listenlabel, URL-Block oder Dateiname ohne Aussage
+
+Beispiele: Einreichungsfristen, Kontaktdaten, Verweise auf Anlagen; generische Bewertungsformulare; Tabellen ohne Anforderung, Verpflichtung oder Nachweis; eine Tabelle, in der dieselbe URL in jeder Zelle wiederholt wird.
+
+**1 — Teilweise relevant**
+
+Die Textstelle ist **mit dem Bezugstext verknüpft**, die Hinweise sind aber **unvollständig, indirekt, schwach, mehrdeutig oder nur teilweise ausgerichtet**.
+
+- Richtiges Thema, aber nicht die vollständige Anforderung
+- Einhaltung wird angedeutet, aber nicht explizit gemacht
+- Nur ein Teilaspekt eines mehrteiligen Bezugstexts
+- Wird erst im Zusammenspiel mit dem Kontext sinnvoll
+- Schwächeres Ambitionsniveau als gefordert
+
+Beispiele: Klimaziele ohne messbare Zielwerte oder Verifikation; Energiemanagement ohne konkrete Massnahmen; allgemeine Nachhaltigkeitsaussagen ohne operative Details; relevantes Tabellenfragment mit zu wenig Substanz.
+
+**2 — Klar relevant**
+
+Die Textstelle liefert **klare, direkte, passende Hinweise** zum Bezugstext.
+
+- Formuliert explizit Anforderung, Verpflichtung, Qualifikation, Massnahme oder Nachweis
+- Konkrete Nachhaltigkeitsinhalte in direkter Übereinstimmung mit dem Bezugstext
+- Spezifische Schwellenwerte, Standards, Zertifizierungen, Prozesse oder Pflichten
+- Auch eine Tabellenzelle mit konkreter Anforderung kann 2 erhalten, z.B. „CO₂-Emissionen: < 50 g/km"
+
+Beispiele: FSC/PEFC-zertifiziertes Holz bei einem Holz-Bezugstext; konkrete Emissionsziele inkl. Messung und Validierung; klare betriebliche Anforderungen zu Energieeinsparung oder Kühleffizienz.
+
+**Nicht auswertbar — Extraktionsfehler**
+
+Die Textstelle ist **durch einen Fehler der Dokumentextraktion nicht lesbar** und lässt keine inhaltliche Bewertung zu. Gilt immer für **beide** Fragen gleichzeitig.
+
+- Wörter mitten im Wort zerrissen oder Wortanfänge fehlen
+- Leere Formularfelder, die nur aus Punktlinien oder Unterstrichen bestehen
+- Zeichensalat, Encoding-Fehler, unlesbar ineinandergeschobene Fragmente
+
+**Nicht auswertbar:**
+
+```
+gistikkonzept und des L konzeptes si Baustelle llation edarfs (Hebe bungsphase ogistikhandb g der Baus
+für das Kommunalfahrzeug: ……………………………………....................
+```
+
+**Dagegen normal bewerten (0/1/2):**
+
+Knappe, aber verständliche Tabellen wie Typ | Bedarf virtual Cores | Anzahl; Stichworte und Aufzählungen ohne vollständige Sätze; Fachsprache, Abkürzungen oder Normverweise, die verständlich sind.
+
+## Typische Kombinationen
+
+- Kriterium 2 / Handlungsfeld 2: Textstelle trifft die konkrete Anforderung. Normalfall bei starker Evidenz.
+- Kriterium 0 / Handlungsfeld 2: Textstelle passt zum übergeordneten Ziel, aber nicht zur konkreten Anforderung. **Häufig und erwünscht.**
+- Kriterium 0 / Handlungsfeld 1: Thematisch im Umfeld des Ziels, aber schwach oder indirekt.
+- Kriterium 0 / Handlungsfeld 0: Textstelle passt zu keinem von beidem. Häufigster Fall.
+- Kriterium 2 / Handlungsfeld 0: **Sollte nie oder nur selten auftreten** — bitte Bewertung prüfen.
+
+## Prinzipien
+
+### Textstelle vs. Kontext
+
+Bewertet wird ausschliesslich die markierte Textstelle. In dieser Aufgabe wird die Textstelle **ohne ihren umgebenden Kontext** gezeigt — bewerte sie daher strikt eigenständig.
+
+- Evidenz, die nur zusammen mit einem (hier nicht gezeigten) Kontext klar relevant wäre: **maximal 1**
+- 2 erfordert, dass die Textstelle eigenständig klare Evidenz liefert
+
+Hintergrund: Im späteren Benchmark wird die Textstelle ohne ihren Kontext bewertet. Ein Label, das sich nur aus dem Kontext ergibt, wäre für ein Modell nicht nachvollziehbar.
+
+### Ambitionsniveaus
+
+Sie dienen als Orientierung, wie stärkere Evidenz aussehen kann, und helfen bei der Abgrenzung zwischen schwächerer und stärkerer Erfüllung. Sie beziehen sich auf das **Kriterium**, nicht auf das Handlungsfeld. Bei einem Grossteil der Kriterien sind die drei Niveaus identisch; dann erscheint nur eine Zeile mit dem Hinweis „Gleich für alle drei Niveaus". Das ist korrekt und bedeutet lediglich, dass das Kriterium nicht nach Ambitionsniveau differenziert.
+
+## Ausgabeformat
+
+Deine Antwort endet mit einem JSON-Objekt der Form
+
+{"Bewertung": <Ganzzahl 0, 1 oder 2>}
+
+wobei "Bewertung" das Ergebnis des Entscheidungswegs für den Bezugstext ist (0 = nicht relevant, 1 = teilweise relevant, 2 = klar relevant). Wenn die Textstelle nicht auswertbar ist, setze die Bewertung auf 0 — Nicht auswertbar gilt für beide Fragen gleichermaßen (siehe oben). Kein weiterer Text nach dem JSON-Objekt.
+
+## Aufgabe
+
+{task_instruction}
+
+Bezugstext: {query}
+
+{ambition_levels}
+
+Textstelle:
+"""
+{passage}
+"""
+
+Lies die Textstelle, wende den Entscheidungsweg an und gib dann ausschliesslich das JSON-Objekt mit der finalen Bewertung zurück:
+
+{"Bewertung": <Ganzzahl 0, 1 oder 2>}

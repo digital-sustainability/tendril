@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Environments
+.env
+.venv
+
+# Exported data that is not yet preprocessed
+data/exports/
+
+# Derived training data and fine-tuning runs
+data/derived/
+training_runs/
+
+# Temporary files
+tmp/
+
+# Local evaluation caches and per-query rankings
+cache/
+results/predictions/
+
+# Local request logs
+logs/
+
+# Large judge run outputs: request traces and labeling checkpoints
+data/judge/**/*.sqlite
+data/judge/**/*.sqlite-shm
+data/judge/**/*.sqlite-wal
+data/judge/**/results.jsonl
+data/judge/**/results.xlsx
+data/judge/**/run.log
+data/judge/**/results_labeled.parquet
+
+
+# Private data
+private/
+
+# Mac OS
+.DS_Store

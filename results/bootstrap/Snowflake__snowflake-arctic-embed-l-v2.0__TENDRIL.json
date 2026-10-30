@@ -1,0 +1,67 @@
+{
+  "system_a": "results/predictions/Snowflake__snowflake-arctic-embed-l-v2.0",
+  "system_b": "results/predictions/Snowflake__snowflake-arctic-embed-l-v2.0__TENDRIL",
+  "dataset": {
+    "repo": "IntelliProcure/TENDRIL",
+    "revision": "15eef0bc165cd9eb8a467ea53712dc67ca2a9685"
+  },
+  "unit": "project",
+  "iterations": 10000,
+  "seed": 0,
+  "percentiles": [
+    2.5,
+    97.5
+  ],
+  "comparisons": [
+    {
+      "metric": "ndcg_at_10",
+      "mean_a": 0.5469146414126552,
+      "mean_b": 0.6422934871256302,
+      "difference": 0.09537884571297495,
+      "lower": 0.06285838247038193,
+      "upper": 0.13040432119769918,
+      "p_b_not_better": 0.0,
+      "p_two_sided": 0.0
+    },
+    {
+      "metric": "precision_at_10",
+      "mean_a": 0.18835938223781473,
+      "mean_b": 0.2231634019643112,
+      "difference": 0.034804019726496466,
+      "lower": 0.02171462993782046,
+      "upper": 0.0493713473801074,
+      "p_b_not_better": 0.0,
+      "p_two_sided": 0.0
+    },
+    {
+      "metric": "recall_at_10",
+      "mean_a": 0.6759504061985434,
+      "mean_b": 0.7783543243630415,
+      "difference": 0.10240391816449812,
+      "lower": 0.062070931414945366,
+      "upper": 0.1469792834263787,
+      "p_b_not_better": 0.0,
+      "p_two_sided": 0.0
+    },
+    {
+      "metric": "map_at_10",
+      "mean_a": 0.4399517496674839,
+      "mean_b": 0.5334441323910863,
+      "difference": 0.09349238272360244,
+      "lower": 0.05898132818838412,
+      "upper": 0.1327589505304703,
+      "p_b_not_better": 0.0,
+      "p_two_sided": 0.0
+    },
+    {
+      "metric": "mrr_at_10",
+      "mean_a": 0.5733973392276154,
+      "mean_b": 0.651763788930724,
+      "difference": 0.07836644970310858,
+      "lower": 0.041701650855969295,
+      "upper": 0.12051731549698291,
+      "p_b_not_better": 0.0,
+      "p_two_sided": 0.0
+    }
+  ]
+}

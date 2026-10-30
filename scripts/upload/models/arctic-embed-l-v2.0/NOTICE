@@ -1,0 +1,12 @@
+TENDRIL Arctic-Embed-L v2.0
+Copyright 2026 Institute for Public Sector Transformation, Bern University of Applied Sciences
+
+This model is a modified version of Snowflake/snowflake-arctic-embed-l-v2.0
+(https://huggingface.co/Snowflake/snowflake-arctic-embed-l-v2.0), copyright Snowflake Inc.,
+licensed under the Apache License, Version 2.0.
+
+Modifications: all weights were further fine-tuned for German passage retrieval in Swiss public
+procurement tenders, using the LLM-judged TENDRIL-Train data. The tokenizer, architecture, pooling
+and prompts of the base model are unchanged.
+
+The modified model is distributed under the Apache License, Version 2.0 (see LICENSE).

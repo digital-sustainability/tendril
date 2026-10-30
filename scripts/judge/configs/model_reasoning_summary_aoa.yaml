@@ -1,0 +1,158 @@
+# Model and reasoning-effort sweep, LLM-summary area-of-action wording.
+# German human-guidelines prompt (prompts/guidelines_de.txt). Each entry is
+# one model at one reasoning effort. Every model is run at low and medium
+# only; the -low and -medium name suffixes mark that effort.
+# All paths are resolved relative to the repository root unless absolute.
+
+experiment: model_reasoning_summary_aoa
+
+dataset:
+  path: data/validation_set_curated.xlsx
+  id_column: sample_id
+  passage_column: sentence_cleaned
+
+prompt:
+  id: guidelines_de # verbatim human annotation guidelines, German
+  file: prompts/guidelines_de.txt # relative to scripts/judge
+
+query_representations:
+  - id: llm_summary # use llm_summary to test the expanded AoA wording
+
+targets:
+  area: # area of action (Handlungsfeld)
+    query_column: scope_of_action
+    truth_column: int_rel_area
+    task_instruction: >-
+      Bewerte in dieser Aufgabe ausschliesslich die Relevanz der Textstelle für
+      das Handlungsfeld. Der Bezugstext ist das Handlungsfeld.
+  criterion: # procurement criterion (Kriterium)
+    query_column: criterion_text
+    truth_column: int_rel_criterion
+    task_instruction: >-
+      Bewerte in dieser Aufgabe ausschliesslich die Relevanz der Textstelle für
+      das Nachhaltigkeitskriterium. Der Bezugstext ist das Kriterium.
+    ambition_columns: [ambition_basic, ambition_good, ambition_best]
+    ambition_labels: [Basis, Gute Praxis, Vorbild]
+
+models:
+  # qwen/qwen3.7-flash — low, medium
+  - name: qwen/qwen3.7-flash-low
+    client: openrouter
+    model: qwen/qwen3.7-flash
+    reasoning:
+      effort: low
+  - name: qwen/qwen3.7-flash-medium
+    client: openrouter
+    model: qwen/qwen3.7-flash
+    reasoning:
+      effort: medium
+
+  # qwen/qwen3.8-flash — low, medium
+  - name: qwen/qwen3.8-flash-low
+    client: openrouter
+    model: qwen/qwen3.8-flash
+    reasoning:
+      effort: low
+  - name: qwen/qwen3.8-flash-medium
+    client: openrouter
+    model: qwen/qwen3.8-flash
+    reasoning:
+      effort: medium
+
+  # deepseek/deepseek-v4-flash-0731 — low, medium
+  - name: deepseek/deepseek-v4-flash-0731-low
+    client: openrouter
+    model: deepseek/deepseek-v4-flash-0731
+    reasoning:
+      effort: low
+  - name: deepseek/deepseek-v4-flash-0731-medium
+    client: openrouter
+    model: deepseek/deepseek-v4-flash-0731
+    reasoning:
+      effort: medium
+
+  # deepseek/deepseek-v4.1-flash — low, medium
+  - name: deepseek/deepseek-v4.1-flash-low
+    client: openrouter
+    model: deepseek/deepseek-v4.1-flash
+    reasoning:
+      effort: low
+  - name: deepseek/deepseek-v4.1-flash-medium
+    client: openrouter
+    model: deepseek/deepseek-v4.1-flash
+    reasoning:
+      effort: medium
+
+  # z-ai/glm-5.3-flash — low, medium
+  - name: z-ai/glm-5.3-flash-low
+    client: openrouter
+    model: z-ai/glm-5.3-flash
+    reasoning:
+      effort: low
+  - name: z-ai/glm-5.3-flash-medium
+    client: openrouter
+    model: z-ai/glm-5.3-flash
+    reasoning:
+      effort: medium
+
+  # google/gemini-2.5-flash-lite — low, medium
+  - name: google/gemini-2.5-flash-lite-low
+    client: openrouter
+    model: google/gemini-2.5-flash-lite
+    reasoning:
+      effort: low
+  - name: google/gemini-2.5-flash-lite-medium
+    client: openrouter
+    model: google/gemini-2.5-flash-lite
+    reasoning:
+      effort: medium
+
+  # openai/gpt-6-luna — low, medium
+  - name: openai/gpt-6-luna-low
+    client: openrouter
+    model: openai/gpt-6-luna
+    reasoning:
+      effort: low
+  - name: openai/gpt-6-luna-medium
+    client: openrouter
+    model: openai/gpt-6-luna
+    reasoning:
+      effort: medium
+
+  # mistralai/mistral-small-2603 — low, medium
+  - name: mistralai/mistral-small-2603-low
+    client: openrouter
+    model: mistralai/mistral-small-2603
+    reasoning:
+      effort: low
+  - name: mistralai/mistral-small-2603-medium
+    client: openrouter
+    model: mistralai/mistral-small-2603
+    reasoning:
+      effort: medium
+
+hyperparams: # fixed across both query wordings
+  temperature: 0.0
+  top_p: 1.0
+  frequency_penalty: 0.5
+  presence_penalty: 0.0
+  max_tokens: 8192 # reasoning efforts need a larger completion budget
+
+runtime:
+  max_samples: null # set an int (e.g. 10) to test with only the first N excerpts
+  max_workers: 1 # runner fallback; OpenRouter batch runs ignore it
+  # Each in-flight model holds its full task list until that list finishes.
+  # In-flight HTTP calls peak at this value times throttle.max_concurrency.
+  max_concurrent_models: 3
+  timeout: 600 # client timeout, seconds (reasoning models are slow)
+  max_retries: 4 # SDK retries; the runner retries again with retry_base_sleep
+  retry_base_sleep: 2.0 # exponential backoff base (seconds)
+  # Shared by every model in this file. A per-model throttle would override it.
+  throttle:
+    mode: fixed
+    max_rpm: 512
+    max_concurrency: 256
+  # Optional `budget_usd` stops a run; `cache: true` replays logged hits.
+
+paths:
+  results_dir: data/judge/model_reasoning/summary_aoa # relative to the repository root
